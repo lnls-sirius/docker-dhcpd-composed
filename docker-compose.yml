@@ -7,3 +7,5 @@ services:
     volumes:
       - ./data:/data
     network_mode: "host"
+    dns: 192.168.2.12
+    dns_search: lnls-sirius.com.br

@@ -4,7 +4,7 @@ services:
     restart: always
     image: lnls/dhcpd
     container_name: dhcpd
-    command: ["enp5s0:"]
+    command: ["enp5s0"]
     volumes:
       - ./data:/data
     network_mode: "host"

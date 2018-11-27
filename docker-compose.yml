@@ -4,9 +4,8 @@ services:
     restart: always
     image: lnls/dhcpd
     container_name: dhcpd
-    command: ["enp2s0"]
+    command: ["enp5s0:"]
     volumes:
       - ./data:/data
     network_mode: "host"
-    dns: 10.128.255.6
-    dns_search: lnls-sirius.com.br
+    dns: 10.0.0.71

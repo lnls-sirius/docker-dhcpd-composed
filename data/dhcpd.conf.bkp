@@ -1,0 +1,82 @@
+#
+# Sample configuration file for ISC dhcpd for Debian
+#
+# Attention: If /etc/ltsp/dhcpd.conf exists, that will be used as
+# configuration file instead of this file.
+#
+#
+
+
+# option definitions common to all supported networks...
+#option domain-name "lnls-sirius.com.br";
+#option domain-name-servers ns1.lnls-sirius.com.br;
+#option routers 10.128.150.1;
+
+default-lease-time 7200;
+max-lease-time 86400;
+
+# If this DHCP server is the official DHCP server for the local
+# network, the authoritative directive should be uncommented.
+authoritative;
+
+# Use this to send dhcp log messages to a different log file (you also
+# have to hack syslog.conf to complete the redirection).
+log-facility local7;
+
+# Include DDNS key
+#include "/data/ddns.key";
+
+# zone lnls-sirius.com.br. {
+#   primary ns1.lnls-sirius.com.br;
+#   key DDNS_UPDATE;
+# }
+
+# No service will be given on this subnet, but declaring it helps the
+# DHCP server to understand the network topology.
+
+#subnet 10.152.187.0 netmask 255.255.255.0 {
+#}
+
+# This is a very basic subnet declaration.
+
+#subnet 10.254.239.0 netmask 255.255.255.224 {
+#  range 10.254.239.10 10.254.239.20;
+#  option routers rtr-239-0-1.example.org, rtr-239-0-2.example.org;
+#}
+ 
+#subnet 10.254.239.32 netmask 255.255.255.224 {
+#  range dynamic-bootp 10.254.239.40 10.254.239.60;
+#  option broadcast-address 10.254.239.31;
+#  option routers rtr-239-32-1.example.org;
+#}
+
+# A slightly different configuration for an internal subnet.
+#subnet 10.5.5.0 netmask 255.255.255.224 {
+#  range 10.5.5.26 10.5.5.30;
+#  option domain-name-servers ns1.internal.example.org;
+#  option domain-name "internal.example.org";
+#  option subnet-mask 255.255.255.224;
+#  option routers 10.5.5.1;
+#  option broadcast-address 10.5.5.31;
+#  default-lease-time 7200;
+#  max-lease-time 86400;
+#}
+#
+subnet 10.128.255.0 netmask 255.255.255.0 {
+}
+
+subnet 10.128.101.0 netmask 255.255.255.0 {
+    range 10.128.101.200 10.128.101.254;
+    option domain-name-servers 10.0.0.71, 10.0.0.72;
+    option subnet-mask 255.255.255.0;
+    option routers 10.128.101.1;
+    option broadcast-address 10.128.101.255;
+    default-lease-time 7200;
+    max-lease-time 86400;
+}
+
+option option-128 code 128 = string;
+option option-129 code 129 = text;
+
+# pxeboot boot loader will try to NFS mount this directory for root FS
+# option root-path "nfsroot.lnls-sirius.com.br:/exports/rootfs";

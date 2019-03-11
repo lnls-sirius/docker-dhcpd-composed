@@ -1,0 +1,1526 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.3.3
+
+lease 10.128.123.200 {
+  starts 3 2019/02/20 17:02:50;
+  ends 5 2019/03/08 04:09:30;
+  tstp 5 2019/03/08 04:09:30;
+  cltt 3 2019/02/20 17:02:50;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:48:82;
+}
+lease 10.128.123.202 {
+  starts 3 2019/02/20 17:21:35;
+  ends 5 2019/03/08 04:28:15;
+  tstp 5 2019/03/08 04:28:15;
+  cltt 3 2019/02/20 17:41:00;
+  binding state free;
+  hardware ethernet 98:4b:e1:ac:8e:af;
+  uid "\001\230K\341\254\216\257";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 10.128.123.203 {
+  starts 3 2019/02/20 17:21:48;
+  ends 5 2019/03/08 04:28:28;
+  tstp 5 2019/03/08 04:28:28;
+  cltt 3 2019/02/20 17:21:48;
+  binding state free;
+  hardware ethernet 38:d2:69:4f:a5:df;
+  uid "\0018\322iO\245\337";
+}
+lease 10.128.123.204 {
+  starts 3 2019/02/20 17:23:26;
+  ends 5 2019/03/08 04:30:06;
+  tstp 5 2019/03/08 04:30:06;
+  cltt 3 2019/02/20 17:23:26;
+  binding state free;
+  hardware ethernet 98:5d:ad:ce:95:95;
+  uid "\001\230]\255\316\225\225";
+}
+lease 10.128.123.205 {
+  starts 3 2019/02/20 17:24:03;
+  ends 5 2019/03/08 04:30:43;
+  tstp 5 2019/03/08 04:30:43;
+  cltt 3 2019/02/20 17:24:03;
+  binding state free;
+  hardware ethernet b0:d5:cc:ad:15:fd;
+  uid "\001\260\325\314\255\025\375";
+}
+lease 10.128.123.206 {
+  starts 3 2019/02/20 17:25:57;
+  ends 5 2019/03/08 04:32:37;
+  tstp 5 2019/03/08 04:32:37;
+  cltt 3 2019/02/20 17:25:57;
+  binding state free;
+  hardware ethernet 38:d2:69:39:0c:f2;
+  uid "\0018\322i9\014\362";
+}
+lease 10.128.123.208 {
+  starts 4 2019/02/21 14:28:51;
+  ends 6 2019/03/09 01:35:31;
+  tstp 6 2019/03/09 01:35:31;
+  cltt 5 2019/02/22 14:15:32;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.123.201 {
+  starts 2 2019/02/26 19:52:21;
+  ends 4 2019/03/14 06:59:01;
+  cltt 2 2019/02/26 19:52:21;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+  client-hostname "controle1";
+}
+lease 10.128.123.207 {
+  starts 5 2019/03/08 15:09:15;
+  ends 0 2019/03/24 02:15:55;
+  cltt 5 2019/03/08 15:09:15;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 84:7b:eb:e6:cd:cf;
+  uid "\001\204{\353\346\315\317";
+  set vendor-class-identifier = "MSFT 5.0";
+  client-hostname "LNLS408";
+}
+lease 10.128.122.201 {
+  starts 5 2019/02/22 19:23:45;
+  ends 5 2019/02/22 19:27:35;
+  tstp 5 2019/02/22 19:27:35;
+  cltt 5 2019/02/22 19:23:45;
+  binding state free;
+  hardware ethernet 04:a3:16:e1:3b:cd;
+  uid "\001\004\243\026\341;\315";
+}
+lease 10.128.122.202 {
+  starts 5 2019/02/22 19:29:06;
+  ends 5 2019/02/22 19:31:21;
+  tstp 5 2019/02/22 19:31:21;
+  cltt 5 2019/02/22 19:29:06;
+  binding state free;
+  hardware ethernet 04:a3:16:e1:07:3d;
+  uid "\001\004\243\026\341\007=";
+}
+lease 10.128.122.200 {
+  starts 4 2019/02/21 13:29:44;
+  ends 6 2019/03/09 00:36:24;
+  tstp 6 2019/03/09 00:36:24;
+  cltt 4 2019/02/21 13:29:44;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.122.203 {
+  starts 5 2019/02/22 19:32:25;
+  ends 0 2019/03/10 06:39:05;
+  tstp 0 2019/03/10 06:39:05;
+  cltt 5 2019/02/22 19:32:25;
+  binding state free;
+  hardware ethernet 04:a3:16:e1:56:04;
+  uid "\001\004\243\026\341V\004";
+}
+lease 10.128.121.200 {
+  starts 4 2019/02/07 16:52:44;
+  ends 4 2019/02/07 18:52:44;
+  tstp 4 2019/02/07 18:52:44;
+  cltt 4 2019/02/07 16:52:44;
+  binding state free;
+  hardware ethernet 00:80:a3:ac:70:0f;
+  uid "\001\000\200\243\254p\017";
+}
+lease 10.128.121.201 {
+  starts 4 2019/02/07 18:12:29;
+  ends 4 2019/02/07 20:12:29;
+  tstp 4 2019/02/07 20:12:29;
+  cltt 4 2019/02/07 18:12:29;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.121.203 {
+  starts 5 2019/02/08 12:48:56;
+  ends 5 2019/02/08 13:00:08;
+  tstp 5 2019/02/08 13:00:08;
+  cltt 5 2019/02/08 12:48:56;
+  binding state free;
+  hardware ethernet 98:4b:e1:ac:8e:af;
+  uid "\001\230K\341\254\216\257";
+}
+lease 10.128.121.202 {
+  starts 2 2019/03/05 10:35:02;
+  ends 3 2019/03/20 21:41:42;
+  cltt 2 2019/03/05 10:35:02;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 40:bd:32:1f:07:44;
+  uid "\001@\2752\037\007D";
+  client-hostname "CON-BBB-LT-Fontes5";
+}
+lease 10.128.121.204 {
+  starts 1 2019/03/11 14:40:26;
+  ends 3 2019/03/27 01:47:06;
+  cltt 1 2019/03/11 14:40:26;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:61:b3;
+  uid "\001\004\243\026\255a\263";
+  client-hostname "con-bbb-2";
+}
+lease 10.128.120.200 {
+  starts 4 2018/11/29 15:03:14;
+  ends 4 2018/11/29 15:05:14;
+  tstp 4 2018/11/29 15:05:14;
+  cltt 4 2018/11/29 15:03:14;
+  binding state free;
+  hardware ethernet de:ad:c0:de:ca:fe;
+}
+lease 10.128.120.202 {
+  starts 4 2019/02/07 17:53:44;
+  ends 4 2019/02/07 19:53:44;
+  tstp 4 2019/02/07 19:53:44;
+  cltt 4 2019/02/07 17:53:44;
+  binding state free;
+  hardware ethernet 04:a3:16:ad:c6:20;
+  uid "\001\004\243\026\255\306 ";
+}
+lease 10.128.120.201 {
+  starts 4 2019/02/21 13:48:55;
+  ends 6 2019/03/09 00:55:35;
+  tstp 6 2019/03/09 00:55:35;
+  cltt 4 2019/02/21 13:48:55;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.120.203 {
+  starts 4 2019/02/21 14:01:48;
+  ends 6 2019/03/09 01:08:28;
+  tstp 6 2019/03/09 01:08:28;
+  cltt 4 2019/02/21 14:06:22;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:48:82;
+}
+lease 10.128.119.200 {
+  starts 5 2019/01/18 11:09:06;
+  ends 5 2019/01/18 13:09:06;
+  tstp 5 2019/01/18 13:09:06;
+  cltt 5 2019/01/18 11:09:06;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.118.200 {
+  starts 4 2019/01/17 17:37:53;
+  ends 4 2019/01/17 19:37:53;
+  tstp 4 2019/01/17 19:37:53;
+  cltt 4 2019/01/17 17:38:28;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.118.201 {
+  starts 5 2019/01/18 11:08:22;
+  ends 5 2019/01/18 13:08:22;
+  tstp 5 2019/01/18 13:08:22;
+  cltt 5 2019/01/18 11:08:26;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:45:56;
+}
+lease 10.128.118.202 {
+  starts 2 2019/03/05 10:35:02;
+  ends 3 2019/03/20 21:41:42;
+  cltt 2 2019/03/05 10:35:02;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 84:eb:18:e2:6c:78;
+  uid "\001\204\353\030\342lx";
+  client-hostname "con-bbb-6";
+}
+lease 10.128.116.200 {
+  starts 5 2018/12/07 14:06:18;
+  ends 5 2018/12/07 16:06:18;
+  tstp 5 2018/12/07 16:06:18;
+  cltt 5 2018/12/07 14:06:18;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.116.201 {
+  starts 5 2019/01/18 11:01:29;
+  ends 5 2019/01/18 13:01:29;
+  tstp 5 2019/01/18 13:01:29;
+  cltt 5 2019/01/18 11:01:29;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:45:56;
+}
+lease 10.128.115.200 {
+  starts 5 2018/11/30 11:16:01;
+  ends 5 2018/11/30 13:16:01;
+  tstp 5 2018/11/30 13:16:01;
+  cltt 5 2018/11/30 11:16:01;
+  binding state free;
+  hardware ethernet a8:1b:6a:1c:78:71;
+  uid "\001\250\033j\034xq";
+}
+lease 10.128.115.201 {
+  starts 5 2018/11/30 11:16:45;
+  ends 5 2018/11/30 13:16:45;
+  tstp 5 2018/11/30 13:16:45;
+  cltt 5 2018/11/30 11:16:45;
+  binding state free;
+  hardware ethernet b0:d5:cc:fb:8b:8d;
+  uid "\001\260\325\314\373\213\215";
+}
+lease 10.128.115.202 {
+  starts 5 2018/11/30 11:17:11;
+  ends 5 2018/11/30 13:17:11;
+  tstp 5 2018/11/30 13:17:11;
+  cltt 5 2018/11/30 11:17:11;
+  binding state free;
+  hardware ethernet 04:a3:16:b1:ab:2f;
+  uid "\001\004\243\026\261\253/";
+}
+lease 10.128.115.203 {
+  starts 5 2018/11/30 11:18:17;
+  ends 5 2018/11/30 13:18:17;
+  tstp 5 2018/11/30 13:18:17;
+  cltt 5 2018/11/30 11:18:17;
+  binding state free;
+  hardware ethernet 04:a3:16:f9:8b:7f;
+  uid "\001\004\243\026\371\213\177";
+}
+lease 10.128.114.200 {
+  starts 4 2018/12/06 12:53:33;
+  ends 4 2018/12/06 14:53:33;
+  tstp 4 2018/12/06 14:53:33;
+  cltt 4 2018/12/06 12:53:33;
+  binding state free;
+  hardware ethernet 00:40:42:22:03:04;
+}
+lease 10.128.114.201 {
+  starts 4 2018/12/06 12:53:37;
+  ends 4 2018/12/06 14:53:37;
+  tstp 4 2018/12/06 14:53:37;
+  cltt 4 2018/12/06 12:53:37;
+  binding state free;
+  hardware ethernet 00:40:42:1f:00:08;
+}
+lease 10.128.114.202 {
+  starts 5 2019/01/18 10:55:12;
+  ends 5 2019/01/18 12:55:12;
+  tstp 5 2019/01/18 12:55:12;
+  cltt 5 2019/01/18 10:58:47;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:45:56;
+}
+lease 10.128.113.200 {
+  starts 5 2019/01/18 10:53:02;
+  ends 5 2019/01/18 12:53:02;
+  tstp 5 2019/01/18 12:53:02;
+  cltt 5 2019/01/18 10:53:02;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:45:56;
+}
+lease 10.128.111.200 {
+  starts 1 2019/01/21 12:20:48;
+  ends 1 2019/01/21 14:20:48;
+  tstp 1 2019/01/21 14:20:48;
+  cltt 1 2019/01/21 12:20:48;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.111.201 {
+  starts 1 2019/02/18 19:03:56;
+  ends 3 2019/03/06 06:10:36;
+  tstp 3 2019/03/06 06:10:36;
+  cltt 1 2019/02/18 19:06:52;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:48:82;
+}
+lease 10.128.110.200 {
+  starts 4 2018/12/06 13:46:33;
+  ends 4 2018/12/06 15:46:33;
+  tstp 4 2018/12/06 15:46:33;
+  cltt 4 2018/12/06 13:46:33;
+  binding state free;
+  hardware ethernet 00:40:42:22:02:e2;
+}
+lease 10.128.110.201 {
+  starts 4 2018/12/06 13:48:29;
+  ends 4 2018/12/06 15:48:29;
+  tstp 4 2018/12/06 15:48:29;
+  cltt 4 2018/12/06 13:48:29;
+  binding state free;
+  hardware ethernet 00:40:42:1f:00:12;
+}
+lease 10.128.110.205 {
+  starts 5 2018/12/07 12:04:43;
+  ends 5 2018/12/07 12:09:50;
+  tstp 5 2018/12/07 12:09:50;
+  cltt 5 2018/12/07 12:05:53;
+  binding state free;
+  hardware ethernet b0:d5:cc:fc:58:97;
+  uid "\001\260\325\314\374X\227";
+}
+lease 10.128.110.204 {
+  starts 5 2018/12/07 12:03:52;
+  ends 5 2018/12/07 12:16:17;
+  tstp 5 2018/12/07 12:16:17;
+  cltt 5 2018/12/07 12:13:36;
+  binding state free;
+  hardware ethernet b0:d5:cc:f0:bf:2d;
+  uid "\001\260\325\314\360\277-";
+}
+lease 10.128.110.203 {
+  starts 5 2018/12/07 12:03:05;
+  ends 5 2018/12/07 12:20:00;
+  tstp 5 2018/12/07 12:20:00;
+  cltt 5 2018/12/07 12:17:03;
+  binding state free;
+  hardware ethernet b0:d5:cc:ff:dd:c8;
+  uid "\001\260\325\314\377\335\310";
+}
+lease 10.128.110.202 {
+  starts 5 2018/12/07 12:02:17;
+  ends 5 2018/12/07 12:26:49;
+  tstp 5 2018/12/07 12:26:49;
+  cltt 5 2018/12/07 12:20:49;
+  binding state free;
+  hardware ethernet 04:a3:16:bb:dc:72;
+  uid "\001\004\243\026\273\334r";
+}
+lease 10.128.110.206 {
+  starts 5 2019/01/18 10:49:09;
+  ends 5 2019/01/18 12:49:09;
+  tstp 5 2019/01/18 12:49:09;
+  cltt 5 2019/01/18 10:49:09;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.109.201 {
+  starts 5 2018/12/07 13:13:21;
+  ends 5 2018/12/07 13:26:58;
+  tstp 5 2018/12/07 13:26:58;
+  cltt 5 2018/12/07 13:13:21;
+  binding state free;
+  hardware ethernet b0:d5:cc:f9:86:11;
+  uid "\001\260\325\314\371\206\021";
+}
+lease 10.128.109.202 {
+  starts 5 2018/12/07 13:14:04;
+  ends 5 2018/12/07 13:29:20;
+  tstp 5 2018/12/07 13:29:20;
+  cltt 5 2018/12/07 13:27:29;
+  binding state free;
+  hardware ethernet b0:d5:cc:f9:c6:7c;
+  uid "\001\260\325\314\371\306|";
+}
+lease 10.128.109.203 {
+  starts 5 2018/12/07 13:14:35;
+  ends 5 2018/12/07 13:32:02;
+  tstp 5 2018/12/07 13:32:02;
+  cltt 5 2018/12/07 13:29:53;
+  binding state free;
+  hardware ethernet 04:a3:16:ad:25:12;
+  uid "\001\004\243\026\255%\022";
+}
+lease 10.128.109.204 {
+  starts 5 2018/12/07 13:33:42;
+  ends 5 2018/12/07 13:34:51;
+  tstp 5 2018/12/07 13:34:51;
+  cltt 5 2018/12/07 13:33:42;
+  binding state free;
+  hardware ethernet 04:a3:16:b3:76:86;
+  uid "\001\004\243\026\263v\206";
+}
+lease 10.128.109.205 {
+  starts 2 2019/02/19 13:51:34;
+  ends 2 2019/02/19 13:59:08;
+  tstp 2 2019/02/19 13:59:08;
+  cltt 2 2019/02/19 13:51:34;
+  binding state free;
+  hardware ethernet 98:5d:ad:ce:78:f7;
+  uid "\001\230]\255\316x\367";
+}
+lease 10.128.109.207 {
+  starts 2 2019/02/19 14:02:57;
+  ends 2 2019/02/19 14:06:36;
+  tstp 2 2019/02/19 14:06:36;
+  cltt 2 2019/02/19 14:02:57;
+  binding state free;
+  hardware ethernet 38:d2:69:38:7f:83;
+  uid "\0018\322i8\177\203";
+}
+lease 10.128.109.206 {
+  starts 2 2019/02/19 13:52:24;
+  ends 4 2019/03/07 00:59:04;
+  tstp 4 2019/03/07 00:59:04;
+  cltt 2 2019/02/19 13:52:24;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.109.200 {
+  starts 3 2019/02/20 13:00:12;
+  ends 5 2019/03/08 00:06:52;
+  tstp 5 2019/03/08 00:06:52;
+  cltt 3 2019/02/20 13:09:58;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.108.201 {
+  starts 5 2018/12/07 13:44:02;
+  ends 5 2018/12/07 13:46:11;
+  tstp 5 2018/12/07 13:46:11;
+  cltt 5 2018/12/07 13:44:02;
+  binding state free;
+  hardware ethernet b0:d5:cc:fb:bc:62;
+  uid "\001\260\325\314\373\274b";
+}
+lease 10.128.108.202 {
+  starts 5 2018/12/07 13:47:10;
+  ends 5 2018/12/07 13:50:04;
+  tstp 5 2018/12/07 13:50:04;
+  cltt 5 2018/12/07 13:47:10;
+  binding state free;
+  hardware ethernet 04:a3:16:b3:8e:d2;
+  uid "\001\004\243\026\263\216\322";
+}
+lease 10.128.108.203 {
+  starts 5 2018/12/07 13:50:33;
+  ends 5 2018/12/07 13:52:31;
+  tstp 5 2018/12/07 13:52:31;
+  cltt 5 2018/12/07 13:50:33;
+  binding state free;
+  hardware ethernet 04:a3:16:e9:13:c6;
+  uid "\001\004\243\026\351\023\306";
+}
+lease 10.128.108.204 {
+  starts 5 2018/12/07 13:53:05;
+  ends 5 2018/12/07 13:54:40;
+  tstp 5 2018/12/07 13:54:40;
+  cltt 5 2018/12/07 13:53:05;
+  binding state free;
+  hardware ethernet b0:d5:cc:f0:ea:95;
+  uid "\001\260\325\314\360\352\225";
+}
+lease 10.128.108.200 {
+  starts 5 2018/12/07 13:43:54;
+  ends 5 2018/12/07 15:43:54;
+  tstp 5 2018/12/07 15:43:54;
+  cltt 5 2018/12/07 13:44:24;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.108.205 {
+  starts 4 2018/12/13 12:40:12;
+  ends 4 2018/12/13 14:40:12;
+  tstp 4 2018/12/13 14:40:12;
+  cltt 4 2018/12/13 12:40:12;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.108.206 {
+  starts 5 2019/01/18 10:46:53;
+  ends 5 2019/01/18 12:46:53;
+  tstp 5 2019/01/18 12:46:53;
+  cltt 5 2019/01/18 10:46:53;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:45:56;
+}
+lease 10.128.108.207 {
+  starts 5 2019/02/22 18:58:04;
+  ends 0 2019/03/10 06:04:44;
+  tstp 0 2019/03/10 06:04:44;
+  cltt 5 2019/02/22 18:58:04;
+  binding state free;
+  hardware ethernet 1c:39:47:5f:6b:c1;
+  uid "\001\0349G_k\301";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 10.128.107.200 {
+  starts 4 2018/12/13 12:03:47;
+  ends 4 2018/12/13 12:26:18;
+  tstp 4 2018/12/13 12:26:18;
+  cltt 4 2018/12/13 12:25:09;
+  binding state free;
+  hardware ethernet 04:a3:16:ad:22:e2;
+  uid "\001\004\243\026\255\"\342";
+}
+lease 10.128.107.201 {
+  starts 4 2018/12/13 12:03:42;
+  ends 4 2018/12/13 12:28:17;
+  tstp 4 2018/12/13 12:28:17;
+  cltt 4 2018/12/13 12:26:27;
+  binding state free;
+  hardware ethernet c8:df:84:ca:78:8f;
+  uid "\001\310\337\204\312x\217";
+}
+lease 10.128.107.202 {
+  starts 4 2018/12/13 12:11:52;
+  ends 4 2018/12/13 12:31:52;
+  tstp 4 2018/12/13 12:31:52;
+  cltt 4 2018/12/13 12:29:43;
+  binding state free;
+  hardware ethernet 88:4a:ea:bf:b2:0c;
+  uid "\001\210J\352\277\262\014";
+}
+lease 10.128.107.205 {
+  starts 4 2018/12/13 12:15:47;
+  ends 4 2018/12/13 12:34:26;
+  tstp 4 2018/12/13 12:34:26;
+  cltt 4 2018/12/13 12:32:50;
+  binding state free;
+  hardware ethernet c8:fd:19:c5:ba:56;
+  uid "\001\310\375\031\305\272V";
+}
+lease 10.128.107.203 {
+  starts 4 2018/12/13 12:14:32;
+  ends 4 2018/12/13 12:39:34;
+  tstp 4 2018/12/13 12:39:34;
+  cltt 4 2018/12/13 12:37:35;
+  binding state free;
+  hardware ethernet 84:eb:18:e8:69:85;
+  uid "\001\204\353\030\350i\205";
+}
+lease 10.128.107.204 {
+  starts 4 2018/12/13 12:13:33;
+  ends 4 2018/12/13 12:40:56;
+  tstp 4 2018/12/13 12:40:56;
+  cltt 4 2018/12/13 12:37:16;
+  binding state free;
+  hardware ethernet 84:eb:18:e2:b9:03;
+  uid "\001\204\353\030\342\271\003";
+}
+lease 10.128.107.206 {
+  starts 4 2018/12/13 12:05:08;
+  ends 4 2018/12/13 14:05:08;
+  tstp 4 2018/12/13 14:05:08;
+  cltt 4 2018/12/13 12:05:08;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.107.208 {
+  starts 5 2018/12/14 12:56:08;
+  ends 5 2018/12/14 13:52:09;
+  tstp 5 2018/12/14 13:52:09;
+  cltt 5 2018/12/14 12:56:08;
+  binding state free;
+  hardware ethernet 04:a3:16:f5:35:f0;
+  uid "\001\004\243\026\3655\360";
+}
+lease 10.128.107.209 {
+  starts 5 2018/12/14 13:01:21;
+  ends 5 2018/12/14 13:52:13;
+  tstp 5 2018/12/14 13:52:13;
+  cltt 5 2018/12/14 13:01:21;
+  binding state free;
+  hardware ethernet 04:a3:16:f9:5f:d5;
+  uid "\001\004\243\026\371_\325";
+}
+lease 10.128.107.207 {
+  starts 5 2019/01/18 10:45:06;
+  ends 5 2019/01/18 12:45:06;
+  tstp 5 2019/01/18 12:45:06;
+  cltt 5 2019/01/18 10:45:06;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.106.201 {
+  starts 4 2018/12/13 12:09:07;
+  ends 4 2018/12/13 12:20:18;
+  tstp 4 2018/12/13 12:20:18;
+  cltt 4 2018/12/13 12:09:07;
+  binding state free;
+  hardware ethernet 50:8c:b1:1f:6b:75;
+  uid "\001P\214\261\037ku";
+}
+lease 10.128.106.202 {
+  starts 4 2018/12/13 12:09:21;
+  ends 4 2018/12/13 12:21:59;
+  tstp 4 2018/12/13 12:21:59;
+  cltt 4 2018/12/13 12:20:36;
+  binding state free;
+  hardware ethernet 50:33:8b:31:d5:48;
+  uid "\001P3\2131\325H";
+}
+lease 10.128.106.203 {
+  starts 4 2018/12/13 17:43:06;
+  ends 4 2018/12/13 19:43:06;
+  tstp 4 2018/12/13 19:43:06;
+  cltt 4 2018/12/13 17:43:28;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.106.200 {
+  starts 5 2018/12/14 13:43:55;
+  ends 5 2018/12/14 15:43:55;
+  tstp 5 2018/12/14 15:43:55;
+  cltt 5 2018/12/14 13:46:02;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.106.204 {
+  starts 5 2019/01/18 10:43:00;
+  ends 5 2019/01/18 12:43:00;
+  tstp 5 2019/01/18 12:43:00;
+  cltt 5 2019/01/18 10:43:00;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:45:56;
+}
+lease 10.128.105.202 {
+  starts 3 2018/12/12 18:06:26;
+  ends 3 2018/12/12 18:19:35;
+  tstp 3 2018/12/12 18:19:35;
+  cltt 3 2018/12/12 18:06:26;
+  binding state free;
+  hardware ethernet 04:a3:16:e1:2d:c3;
+  uid "\001\004\243\026\341-\303";
+}
+lease 10.128.105.201 {
+  starts 3 2018/12/12 18:06:21;
+  ends 3 2018/12/12 18:21:34;
+  tstp 3 2018/12/12 18:21:34;
+  cltt 3 2018/12/12 18:19:51;
+  binding state free;
+  hardware ethernet 04:a3:16:f1:c2:4d;
+  uid "\001\004\243\026\361\302M";
+}
+lease 10.128.105.204 {
+  starts 3 2018/12/12 18:13:45;
+  ends 3 2018/12/12 18:23:17;
+  tstp 3 2018/12/12 18:23:17;
+  cltt 3 2018/12/12 18:21:48;
+  binding state free;
+  hardware ethernet 04:a3:16:f9:70:42;
+  uid "\001\004\243\026\371pB";
+}
+lease 10.128.105.203 {
+  starts 3 2018/12/12 18:13:41;
+  ends 3 2018/12/12 18:24:38;
+  tstp 3 2018/12/12 18:24:38;
+  cltt 3 2018/12/12 18:23:30;
+  binding state free;
+  hardware ethernet 04:a3:16:f9:7c:21;
+  uid "\001\004\243\026\371|!";
+}
+lease 10.128.105.207 {
+  starts 5 2018/12/14 13:52:14;
+  ends 5 2018/12/14 13:54:35;
+  tstp 5 2018/12/14 13:54:35;
+  cltt 5 2018/12/14 13:52:14;
+  binding state free;
+  hardware ethernet 04:a3:16:f9:5f:d5;
+  uid "\001\004\243\026\371_\325";
+}
+lease 10.128.105.206 {
+  starts 5 2018/12/14 13:52:10;
+  ends 5 2018/12/14 13:55:40;
+  tstp 5 2018/12/14 13:55:40;
+  cltt 5 2018/12/14 13:52:10;
+  binding state free;
+  hardware ethernet 04:a3:16:f5:35:f0;
+  uid "\001\004\243\026\3655\360";
+}
+lease 10.128.105.205 {
+  starts 5 2018/12/14 12:02:08;
+  ends 5 2018/12/14 14:02:08;
+  tstp 5 2018/12/14 14:02:08;
+  cltt 5 2018/12/14 12:02:08;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.105.200 {
+  starts 5 2018/12/14 13:52:23;
+  ends 5 2018/12/14 15:52:23;
+  tstp 5 2018/12/14 15:52:23;
+  cltt 5 2018/12/14 13:52:23;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.104.201 {
+  starts 4 2018/12/06 14:59:47;
+  ends 4 2018/12/06 16:59:47;
+  tstp 4 2018/12/06 16:59:47;
+  cltt 4 2018/12/06 14:59:47;
+  binding state free;
+  hardware ethernet 00:40:42:1f:00:02;
+}
+lease 10.128.104.200 {
+  starts 4 2018/12/06 15:23:29;
+  ends 4 2018/12/06 17:23:29;
+  tstp 4 2018/12/06 17:23:29;
+  cltt 4 2018/12/06 15:23:29;
+  binding state free;
+  hardware ethernet 00:40:42:22:02:de;
+}
+lease 10.128.104.205 {
+  starts 3 2018/12/12 17:38:59;
+  ends 3 2018/12/12 17:48:16;
+  tstp 3 2018/12/12 17:48:16;
+  cltt 3 2018/12/12 17:40:44;
+  binding state free;
+  hardware ethernet 04:a3:16:e9:04:dd;
+  uid "\001\004\243\026\351\004\335";
+}
+lease 10.128.104.204 {
+  starts 3 2018/12/12 17:38:20;
+  ends 3 2018/12/12 17:51:16;
+  tstp 3 2018/12/12 17:51:16;
+  cltt 3 2018/12/12 17:48:35;
+  binding state free;
+  hardware ethernet 04:a3:16:b3:6b:fd;
+  uid "\001\004\243\026\263k\375";
+}
+lease 10.128.104.203 {
+  starts 3 2018/12/12 17:37:19;
+  ends 3 2018/12/12 17:53:58;
+  tstp 3 2018/12/12 17:53:58;
+  cltt 3 2018/12/12 17:51:43;
+  binding state free;
+  hardware ethernet 04:a3:16:ac:e3:73;
+  uid "\001\004\243\026\254\343s";
+}
+lease 10.128.104.202 {
+  starts 3 2018/12/12 17:36:32;
+  ends 3 2018/12/12 17:57:25;
+  tstp 3 2018/12/12 17:57:25;
+  cltt 3 2018/12/12 17:54:20;
+  binding state free;
+  hardware ethernet 04:a3:16:ac:33:28;
+  uid "\001\004\243\026\2543(";
+}
+lease 10.128.104.207 {
+  starts 5 2018/12/14 12:38:16;
+  ends 5 2018/12/14 14:38:16;
+  tstp 5 2018/12/14 14:38:16;
+  cltt 5 2018/12/14 12:39:21;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.104.206 {
+  starts 3 2019/01/09 16:36:30;
+  ends 3 2019/01/09 18:36:30;
+  tstp 3 2019/01/09 18:36:30;
+  cltt 3 2019/01/09 16:36:30;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.104.208 {
+  starts 5 2019/01/18 10:39:49;
+  ends 5 2019/01/18 12:39:49;
+  tstp 5 2019/01/18 12:39:49;
+  cltt 5 2019/01/18 10:40:56;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:45:56;
+}
+lease 10.128.104.209 {
+  starts 2 2019/01/22 15:48:58;
+  ends 2 2019/01/22 15:50:58;
+  tstp 2 2019/01/22 15:50:58;
+  cltt 2 2019/01/22 15:48:58;
+  binding state free;
+  hardware ethernet de:ad:c0:de:ca:fe;
+}
+lease 10.128.103.200 {
+  starts 4 2018/12/06 11:08:26;
+  ends 4 2018/12/06 13:08:26;
+  tstp 4 2018/12/06 13:08:26;
+  cltt 4 2018/12/06 11:08:26;
+  binding state free;
+  hardware ethernet 00:40:42:1f:00:03;
+}
+lease 10.128.103.201 {
+  starts 4 2018/12/06 11:08:53;
+  ends 4 2018/12/06 13:08:53;
+  tstp 4 2018/12/06 13:08:53;
+  cltt 4 2018/12/06 11:08:53;
+  binding state free;
+  hardware ethernet 00:40:42:22:02:f6;
+}
+lease 10.128.103.203 {
+  starts 3 2018/12/12 17:53:16;
+  ends 3 2018/12/12 18:05:37;
+  tstp 3 2018/12/12 18:05:37;
+  cltt 3 2018/12/12 17:53:16;
+  binding state free;
+  hardware ethernet 04:a3:16:e1:3b:d6;
+  uid "\001\004\243\026\341;\326";
+}
+lease 10.128.103.204 {
+  starts 3 2018/12/12 17:53:36;
+  ends 3 2018/12/12 18:07:06;
+  tstp 3 2018/12/12 18:07:06;
+  cltt 3 2018/12/12 18:05:51;
+  binding state free;
+  hardware ethernet 04:a3:16:e1:5f:73;
+  uid "\001\004\243\026\341_s";
+}
+lease 10.128.103.205 {
+  starts 3 2018/12/12 17:54:02;
+  ends 3 2018/12/12 18:11:18;
+  tstp 3 2018/12/12 18:11:18;
+  cltt 3 2018/12/12 18:07:26;
+  binding state free;
+  hardware ethernet 04:a3:16:df:df:6c;
+  uid "\001\004\243\026\337\337l";
+}
+lease 10.128.103.206 {
+  starts 3 2018/12/12 17:54:19;
+  ends 3 2018/12/12 18:13:31;
+  tstp 3 2018/12/12 18:13:31;
+  cltt 3 2018/12/12 18:11:29;
+  binding state free;
+  hardware ethernet a8:1b:6a:36:cc:25;
+  uid "\001\250\033j6\314%";
+}
+lease 10.128.103.202 {
+  starts 5 2018/12/14 13:24:00;
+  ends 5 2018/12/14 15:24:00;
+  tstp 5 2018/12/14 15:24:00;
+  cltt 5 2018/12/14 13:30:56;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.103.207 {
+  starts 3 2019/01/09 16:06:24;
+  ends 3 2019/01/09 18:06:24;
+  tstp 3 2019/01/09 18:06:24;
+  cltt 3 2019/01/09 16:06:24;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.102.200 {
+  starts 3 2018/12/05 15:56:27;
+  ends 3 2018/12/05 17:56:27;
+  tstp 3 2018/12/05 17:56:27;
+  cltt 3 2018/12/05 15:56:27;
+  binding state free;
+  hardware ethernet 00:40:42:22:02:d8;
+}
+lease 10.128.102.211 {
+  starts 4 2018/12/13 18:24:34;
+  ends 4 2018/12/13 20:24:34;
+  tstp 4 2018/12/13 20:24:34;
+  cltt 4 2018/12/13 18:24:34;
+  binding state free;
+  hardware ethernet 54:4a:16:f6:59:c7;
+}
+lease 10.128.102.219 {
+  starts 4 2018/12/13 18:24:50;
+  ends 4 2018/12/13 20:24:50;
+  tstp 4 2018/12/13 20:24:50;
+  cltt 4 2018/12/13 18:24:50;
+  binding state free;
+  hardware ethernet 84:eb:18:e2:65:0b;
+}
+lease 10.128.102.212 {
+  starts 4 2018/12/13 18:34:02;
+  ends 4 2018/12/13 20:34:02;
+  tstp 4 2018/12/13 20:34:02;
+  cltt 4 2018/12/13 18:34:02;
+  binding state free;
+  hardware ethernet 54:4a:16:f5:62:7c;
+}
+lease 10.128.102.209 {
+  starts 4 2018/12/13 18:35:07;
+  ends 4 2018/12/13 20:35:07;
+  tstp 4 2018/12/13 20:35:07;
+  cltt 4 2018/12/13 18:35:07;
+  binding state free;
+  hardware ethernet 84:eb:18:e2:5e:95;
+}
+lease 10.128.102.218 {
+  starts 4 2018/12/13 18:58:53;
+  ends 4 2018/12/13 20:58:53;
+  tstp 4 2018/12/13 20:58:53;
+  cltt 4 2018/12/13 18:58:53;
+  binding state free;
+  hardware ethernet 84:eb:18:e8:69:f1;
+}
+lease 10.128.102.210 {
+  starts 4 2018/12/13 19:05:30;
+  ends 4 2018/12/13 21:05:30;
+  tstp 4 2018/12/13 21:05:30;
+  cltt 4 2018/12/13 19:05:30;
+  binding state free;
+  hardware ethernet 84:eb:18:e8:6c:d4;
+}
+lease 10.128.102.220 {
+  starts 5 2018/12/14 18:19:51;
+  ends 5 2018/12/14 18:45:43;
+  tstp 5 2018/12/14 18:45:43;
+  cltt 5 2018/12/14 18:19:51;
+  binding state free;
+  hardware ethernet 04:a3:16:f1:bd:5b;
+  uid "\001\004\243\026\361\275[";
+}
+lease 10.128.102.221 {
+  starts 5 2018/12/14 18:20:46;
+  ends 5 2018/12/14 18:48:51;
+  tstp 5 2018/12/14 18:48:51;
+  cltt 5 2018/12/14 18:20:46;
+  binding state free;
+  hardware ethernet 04:a3:16:f5:35:b1;
+  uid "\001\004\243\026\3655\261";
+}
+lease 10.128.102.222 {
+  starts 5 2018/12/14 18:21:40;
+  ends 5 2018/12/14 18:58:29;
+  tstp 5 2018/12/14 18:58:29;
+  cltt 5 2018/12/14 18:21:40;
+  binding state free;
+  hardware ethernet a8:1b:6a:36:cc:70;
+  uid "\001\250\033j6\314p";
+}
+lease 10.128.102.223 {
+  starts 5 2018/12/14 18:23:21;
+  ends 5 2018/12/14 18:59:59;
+  tstp 5 2018/12/14 18:59:59;
+  cltt 5 2018/12/14 18:23:21;
+  binding state free;
+  hardware ethernet 04:a3:16:e1:02:aa;
+  uid "\001\004\243\026\341\002\252";
+}
+lease 10.128.102.204 {
+  starts 5 2018/12/14 17:33:07;
+  ends 5 2018/12/14 19:33:07;
+  tstp 5 2018/12/14 19:33:07;
+  cltt 5 2018/12/14 17:33:07;
+  binding state free;
+  hardware ethernet 04:a3:16:f2:25:69;
+}
+lease 10.128.102.203 {
+  starts 5 2018/12/14 17:40:36;
+  ends 5 2018/12/14 19:40:36;
+  tstp 5 2018/12/14 19:40:36;
+  cltt 5 2018/12/14 17:40:36;
+  binding state free;
+  hardware ethernet b0:d5:cc:f0:c3:d9;
+}
+lease 10.128.102.205 {
+  starts 5 2018/12/14 17:46:58;
+  ends 5 2018/12/14 19:46:58;
+  tstp 5 2018/12/14 19:46:58;
+  cltt 5 2018/12/14 17:46:58;
+  binding state free;
+  hardware ethernet 04:a3:16:b5:6a:28;
+}
+lease 10.128.102.214 {
+  starts 5 2018/12/14 18:14:43;
+  ends 5 2018/12/14 20:14:43;
+  tstp 5 2018/12/14 20:14:43;
+  cltt 5 2018/12/14 18:14:43;
+  binding state free;
+  hardware ethernet b0:d5:cc:fd:02:95;
+}
+lease 10.128.102.224 {
+  starts 1 2018/12/17 12:59:44;
+  ends 1 2018/12/17 13:06:13;
+  tstp 1 2018/12/17 13:06:13;
+  cltt 1 2018/12/17 12:59:44;
+  binding state free;
+  hardware ethernet 04:a3:16:f9:74:84;
+  uid "\001\004\243\026\371t\204";
+}
+lease 10.128.102.208 {
+  starts 1 2018/12/17 11:47:45;
+  ends 1 2018/12/17 13:47:45;
+  tstp 1 2018/12/17 13:47:45;
+  cltt 1 2018/12/17 11:47:45;
+  binding state free;
+  hardware ethernet 04:a3:16:b0:65:6d;
+}
+lease 10.128.102.202 {
+  starts 1 2018/12/17 11:51:36;
+  ends 1 2018/12/17 13:51:36;
+  tstp 1 2018/12/17 13:51:36;
+  cltt 1 2018/12/17 11:51:36;
+  binding state free;
+  hardware ethernet 04:a3:16:bb:1b:7b;
+}
+lease 10.128.102.217 {
+  starts 1 2018/12/17 11:56:03;
+  ends 1 2018/12/17 13:56:03;
+  tstp 1 2018/12/17 13:56:03;
+  cltt 1 2018/12/17 11:56:03;
+  binding state free;
+  hardware ethernet b0:d5:cc:ff:fa:28;
+}
+lease 10.128.102.215 {
+  starts 1 2018/12/17 12:09:46;
+  ends 1 2018/12/17 14:09:46;
+  tstp 1 2018/12/17 14:09:46;
+  cltt 1 2018/12/17 12:09:46;
+  binding state free;
+  hardware ethernet 54:4a:16:f5:6e:44;
+}
+lease 10.128.102.216 {
+  starts 1 2018/12/17 12:10:32;
+  ends 1 2018/12/17 14:10:32;
+  tstp 1 2018/12/17 14:10:32;
+  cltt 1 2018/12/17 12:10:32;
+  binding state free;
+  hardware ethernet 04:a3:16:f2:43:c2;
+}
+lease 10.128.102.206 {
+  starts 1 2018/12/17 12:14:00;
+  ends 1 2018/12/17 14:14:00;
+  tstp 1 2018/12/17 14:14:00;
+  cltt 1 2018/12/17 12:14:00;
+  binding state free;
+  hardware ethernet 04:a3:16:e1:47:7d;
+}
+lease 10.128.102.213 {
+  starts 1 2018/12/17 12:14:42;
+  ends 1 2018/12/17 14:14:42;
+  tstp 1 2018/12/17 14:14:42;
+  cltt 1 2018/12/17 12:14:42;
+  binding state free;
+  hardware ethernet a0:f6:fd:8b:43:a2;
+}
+lease 10.128.102.207 {
+  starts 1 2018/12/17 12:19:52;
+  ends 1 2018/12/17 14:19:52;
+  tstp 1 2018/12/17 14:19:52;
+  cltt 1 2018/12/17 12:19:52;
+  binding state free;
+  hardware ethernet 84:eb:18:e8:6c:e9;
+}
+lease 10.128.102.225 {
+  starts 1 2018/12/17 13:00:16;
+  ends 1 2018/12/17 15:00:16;
+  tstp 1 2018/12/17 15:00:16;
+  cltt 1 2018/12/17 13:00:16;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
+lease 10.128.102.201 {
+  starts 3 2019/01/09 15:49:56;
+  ends 3 2019/01/09 17:49:56;
+  tstp 3 2019/01/09 17:49:56;
+  cltt 3 2019/01/09 15:49:56;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.102.226 {
+  starts 1 2019/03/11 15:16:00;
+  ends 3 2019/03/27 02:22:40;
+  cltt 1 2019/03/11 15:16:00;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:df:e5:1d;
+  uid "\001\004\243\026\337\345\035";
+  client-hostname "con-bbb-1";
+}
+lease 10.128.101.200 {
+  starts 3 2018/11/28 12:17:14;
+  ends 3 2018/11/28 14:17:14;
+  tstp 3 2018/11/28 14:17:14;
+  cltt 3 2018/11/28 12:17:14;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:45:56;
+}
+lease 10.128.101.201 {
+  starts 3 2019/01/30 14:42:49;
+  ends 3 2019/01/30 14:44:49;
+  tstp 3 2019/01/30 14:44:49;
+  cltt 3 2019/01/30 14:42:49;
+  binding state free;
+  hardware ethernet de:ad:c0:de:ca:fe;
+}
+lease 10.128.101.204 {
+  starts 4 2019/02/07 12:56:05;
+  ends 4 2019/02/07 12:59:14;
+  tstp 4 2019/02/07 12:59:14;
+  cltt 4 2019/02/07 12:56:05;
+  binding state free;
+  hardware ethernet 04:a3:16:fa:46:f1;
+  uid "\001\004\243\026\372F\361";
+}
+lease 10.128.101.205 {
+  starts 4 2019/02/07 12:57:52;
+  ends 4 2019/02/07 13:06:34;
+  tstp 4 2019/02/07 13:06:34;
+  cltt 4 2019/02/07 12:57:52;
+  binding state free;
+  hardware ethernet 04:a3:16:b0:c2:e0;
+  uid "\001\004\243\026\260\302\340";
+}
+lease 10.128.101.209 {
+  starts 2 2019/02/19 19:17:27;
+  ends 2 2019/02/19 19:19:41;
+  tstp 2 2019/02/19 19:19:41;
+  cltt 2 2019/02/19 19:17:27;
+  binding state free;
+  hardware ethernet 38:d2:69:4e:95:c3;
+  uid "\0018\322iN\225\303";
+}
+lease 10.128.101.210 {
+  starts 2 2019/02/19 19:20:39;
+  ends 2 2019/02/19 19:22:52;
+  tstp 2 2019/02/19 19:22:52;
+  cltt 2 2019/02/19 19:20:39;
+  binding state free;
+  hardware ethernet 50:8c:b1:1f:bc:1f;
+  uid "\001P\214\261\037\274\037";
+}
+lease 10.128.101.211 {
+  starts 2 2019/02/19 19:23:45;
+  ends 2 2019/02/19 19:25:30;
+  tstp 2 2019/02/19 19:25:30;
+  cltt 2 2019/02/19 19:23:45;
+  binding state free;
+  hardware ethernet 38:d2:69:4f:94:7e;
+  uid "\0018\322iO\224~";
+}
+lease 10.128.101.212 {
+  starts 2 2019/02/19 19:26:24;
+  ends 2 2019/02/19 19:27:57;
+  tstp 2 2019/02/19 19:27:57;
+  cltt 2 2019/02/19 19:26:24;
+  binding state free;
+  hardware ethernet 38:d2:69:4f:79:60;
+  uid "\0018\322iOy`";
+}
+lease 10.128.101.216 {
+  starts 1 2019/02/25 14:42:17;
+  ends 1 2019/02/25 14:47:56;
+  tstp 1 2019/02/25 14:47:56;
+  cltt 1 2019/02/25 14:45:12;
+  binding state free;
+  hardware ethernet 04:a3:16:f9:6a:ea;
+  uid "\001\004\243\026\371j\352";
+}
+lease 10.128.101.217 {
+  starts 1 2019/02/25 14:49:56;
+  ends 1 2019/02/25 14:53:50;
+  tstp 1 2019/02/25 14:53:50;
+  cltt 1 2019/02/25 14:49:56;
+  binding state free;
+  hardware ethernet 04:a3:16:df:e5:11;
+  uid "\001\004\243\026\337\345\021";
+}
+lease 10.128.101.218 {
+  starts 1 2019/02/25 15:13:19;
+  ends 1 2019/02/25 15:16:37;
+  tstp 1 2019/02/25 15:16:37;
+  cltt 1 2019/02/25 15:13:19;
+  binding state free;
+  hardware ethernet 04:a3:16:df:f3:b9;
+  uid "\001\004\243\026\337\363\271";
+}
+lease 10.128.101.207 {
+  starts 1 2019/02/11 12:09:23;
+  ends 2 2019/02/26 23:16:03;
+  tstp 2 2019/02/26 23:16:03;
+  cltt 1 2019/02/11 12:09:23;
+  binding state free;
+  hardware ethernet b0:d5:cc:98:cf:eb;
+  uid "\001\260\325\314\230\317\353";
+}
+lease 10.128.101.208 {
+  starts 1 2019/02/11 12:11:29;
+  ends 2 2019/02/26 23:18:09;
+  tstp 2 2019/02/26 23:18:09;
+  cltt 1 2019/02/11 12:11:29;
+  binding state free;
+  hardware ethernet 04:a3:16:b4:2d:cc;
+  uid "\001\004\243\026\264-\314";
+}
+lease 10.128.101.202 {
+  starts 3 2019/02/20 12:37:32;
+  ends 4 2019/03/07 23:44:12;
+  tstp 4 2019/03/07 23:44:12;
+  cltt 4 2019/02/21 19:49:16;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.101.203 {
+  starts 1 2019/02/25 14:43:01;
+  ends 3 2019/03/13 01:49:41;
+  tstp 3 2019/03/13 01:49:41;
+  cltt 1 2019/02/25 14:43:01;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+  client-hostname "controle4";
+}
+lease 10.128.101.206 {
+  starts 1 2019/02/25 18:05:49;
+  ends 3 2019/03/13 05:12:29;
+  cltt 5 2019/03/01 13:43:30;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 98:4b:e1:ac:8f:c0;
+  uid "\001\230K\341\254\217\300";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 10.128.101.213 {
+  starts 2 2019/03/05 10:34:26;
+  ends 3 2019/03/20 21:41:06;
+  cltt 2 2019/03/05 10:34:26;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fd:e2:d6;
+  uid "\001\004\243\026\375\342\326";
+  client-hostname "con-bbb-10";
+}
+lease 10.128.101.214 {
+  starts 2 2019/03/05 10:34:26;
+  ends 3 2019/03/20 21:41:06;
+  cltt 2 2019/03/05 10:34:26;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fd:e6:bd;
+  uid "\001\004\243\026\375\346\275";
+  client-hostname "con-bbb-13";
+}
+lease 10.128.101.215 {
+  starts 2 2019/03/05 10:35:02;
+  ends 3 2019/03/20 21:41:42;
+  cltt 2 2019/03/05 10:35:02;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 84:eb:18:e2:65:32;
+  uid "\001\204\353\030\342e2";
+  client-hostname "con-bbb-4";
+}
+lease 10.128.101.219 {
+  starts 1 2019/03/11 19:43:24;
+  ends 3 2019/03/27 06:50:04;
+  cltt 1 2019/03/11 19:43:24;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:30:53:23:3e:7e;
+}
+lease 10.128.254.217 {
+  starts 2 2019/02/05 17:01:07;
+  ends 2 2019/02/05 19:01:07;
+  tstp 2 2019/02/05 19:01:07;
+  cltt 2 2019/02/05 17:01:07;
+  binding state free;
+  hardware ethernet 54:bf:64:f7:df:d4;
+  uid "\001T\277d\367\337\324";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 10.128.254.206 {
+  starts 2 2019/02/05 17:10:16;
+  ends 2 2019/02/05 19:10:16;
+  tstp 2 2019/02/05 19:10:16;
+  cltt 2 2019/02/05 17:34:16;
+  binding state free;
+  hardware ethernet 40:a8:f0:5f:25:10;
+}
+lease 10.128.254.208 {
+  starts 2 2019/02/05 17:32:49;
+  ends 2 2019/02/05 19:32:49;
+  tstp 2 2019/02/05 19:32:49;
+  cltt 2 2019/02/05 17:46:04;
+  binding state free;
+  hardware ethernet 40:a8:f0:5f:25:06;
+}
+lease 10.128.254.212 {
+  starts 1 2019/02/11 16:50:25;
+  ends 1 2019/02/11 16:52:25;
+  tstp 1 2019/02/11 16:52:25;
+  cltt 1 2019/02/11 16:50:25;
+  binding state free;
+  hardware ethernet de:ad:c0:de:ca:fe;
+}
+lease 10.128.254.201 {
+  starts 3 2019/02/20 11:52:39;
+  ends 3 2019/02/20 11:54:39;
+  tstp 3 2019/02/20 11:54:39;
+  cltt 3 2019/02/20 11:52:39;
+  binding state free;
+  hardware ethernet 20:04:0f:fe:48:82;
+  client-hostname "Controle3-Debian";
+}
+lease 10.128.254.213 {
+  starts 0 2019/02/17 20:55:31;
+  ends 2 2019/03/05 08:02:11;
+  tstp 2 2019/03/05 08:02:11;
+  cltt 0 2019/02/17 20:55:31;
+  binding state free;
+  hardware ethernet 08:00:27:71:56:3f;
+  uid "\001\010\000'qV?";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 10.128.254.235 {
+  starts 3 2019/02/20 16:37:59;
+  ends 5 2019/03/08 03:44:39;
+  tstp 5 2019/03/08 03:44:39;
+  cltt 3 2019/02/20 17:13:34;
+  binding state free;
+  hardware ethernet 84:7b:eb:fc:13:85;
+}
+lease 10.128.254.211 {
+  starts 3 2019/02/27 17:43:19;
+  ends 5 2019/03/15 04:49:59;
+  cltt 3 2019/02/27 17:43:19;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 20:04:0f:fe:45:56;
+  client-hostname "controle2";
+}
+lease 10.128.254.234 {
+  starts 2 2019/03/05 22:39:04;
+  ends 4 2019/03/21 09:45:44;
+  cltt 5 2019/03/08 11:38:16;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:94:66:ae:7d:58;
+}
+lease 10.128.254.236 {
+  starts 3 2019/03/06 20:43:00;
+  ends 5 2019/03/22 07:49:40;
+  cltt 3 2019/03/06 20:43:00;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 9c:eb:e8:60:73:5d;
+  client-hostname "elp1-linux";
+}
+lease 10.128.254.202 {
+  starts 4 2019/03/07 21:35:10;
+  ends 6 2019/03/23 08:41:50;
+  cltt 5 2019/03/08 18:01:27;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 0c:c4:7a:dc:0f:68;
+}
+lease 10.128.254.203 {
+  starts 5 2019/03/08 21:23:10;
+  ends 0 2019/03/24 08:29:50;
+  cltt 1 2019/03/11 20:35:18;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 0c:c4:7a:dc:04:73;
+}
+lease 10.128.254.219 {
+  starts 0 2019/03/10 00:27:55;
+  ends 1 2019/03/25 11:34:35;
+  cltt 0 2019/03/10 00:27:55;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 0c:c4:7a:dc:04:2e;
+  client-hostname "lnls451-linux";
+}
+lease 10.128.254.233 {
+  starts 0 2019/03/10 19:26:23;
+  ends 2 2019/03/26 06:33:03;
+  cltt 0 2019/03/10 19:26:23;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:94:66:ae:7a:84;
+  client-hostname "lnls561-linux";
+}
+lease 10.128.254.221 {
+  starts 1 2019/03/11 03:41:46;
+  ends 2 2019/03/26 14:48:26;
+  cltt 1 2019/03/11 11:31:28;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:94:66:ae:71:ef;
+}
+lease 10.128.254.207 {
+  starts 1 2019/03/11 05:39:10;
+  ends 2 2019/03/26 16:45:50;
+  cltt 1 2019/03/11 19:21:06;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet ac:16:2d:34:6a:43;
+}
+lease 10.128.254.204 {
+  starts 1 2019/03/11 05:44:48;
+  ends 2 2019/03/26 16:51:28;
+  cltt 1 2019/03/11 05:44:48;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 0c:c4:7a:dc:0f:6a;
+  client-hostname "lnls449-linux";
+}
+lease 10.128.254.228 {
+  starts 1 2019/03/11 08:21:12;
+  ends 2 2019/03/26 19:27:52;
+  cltt 1 2019/03/11 08:21:12;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:94:66:ae:7d:bf;
+  client-hostname "lnls558-linux";
+}
+lease 10.128.254.231 {
+  starts 1 2019/03/11 08:43:08;
+  ends 2 2019/03/26 19:49:48;
+  cltt 1 2019/03/11 08:43:08;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:94:66:ae:7d:9b;
+  client-hostname "lnls560-linux";
+}
+lease 10.128.254.200 {
+  starts 1 2019/03/11 13:28:30;
+  ends 3 2019/03/27 00:35:10;
+  cltt 1 2019/03/11 13:40:02;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
+lease 10.128.254.224 {
+  starts 1 2019/03/11 19:21:13;
+  ends 3 2019/03/27 06:27:53;
+  cltt 1 2019/03/11 19:21:13;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:94:66:ae:7d:98;
+  client-hostname "lnls557-linux";
+}
+lease 10.128.254.232 {
+  starts 1 2019/03/11 19:26:43;
+  ends 3 2019/03/27 06:33:23;
+  cltt 1 2019/03/11 19:26:43;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+  client-hostname "controle4";
+}
+lease 10.128.254.205 {
+  starts 1 2019/03/11 20:49:36;
+  ends 3 2019/03/27 07:56:16;
+  cltt 1 2019/03/11 20:49:36;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 0c:c4:7a:d9:7f:70;
+  client-hostname "lnls454-linux";
+}
+lease 10.128.254.202 {
+  starts 1 2019/03/11 20:53:03;
+  ends 3 2019/03/27 07:59:43;
+  cltt 1 2019/03/11 20:53:03;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 0c:c4:7a:dc:0f:68;
+  client-hostname "lnls455-linux";
+}

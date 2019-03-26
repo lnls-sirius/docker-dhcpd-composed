@@ -66,24 +66,32 @@ lease 10.128.123.208 {
 lease 10.128.123.201 {
   starts 2 2019/02/26 19:52:21;
   ends 4 2019/03/14 06:59:01;
+  tstp 4 2019/03/14 06:59:01;
   cltt 2 2019/02/26 19:52:21;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
+  binding state free;
   hardware ethernet 20:04:0f:fe:4c:68;
-  client-hostname "controle1";
 }
 lease 10.128.123.207 {
-  starts 5 2019/03/08 15:09:15;
-  ends 0 2019/03/24 02:15:55;
-  cltt 5 2019/03/08 15:09:15;
+  starts 3 2019/03/13 13:37:46;
+  ends 5 2019/03/29 00:44:26;
+  cltt 4 2019/03/14 16:54:30;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet 84:7b:eb:e6:cd:cf;
   uid "\001\204{\353\346\315\317";
   set vendor-class-identifier = "MSFT 5.0";
-  client-hostname "LNLS408";
+}
+lease 10.128.123.209 {
+  starts 1 2019/03/25 20:22:08;
+  ends 3 2019/04/10 07:28:48;
+  cltt 2 2019/03/26 12:33:48;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 54:b2:03:08:66:1f;
+  uid "\001T\262\003\010f\037";
+  set vendor-class-identifier = "MSFT 5.0";
 }
 lease 10.128.122.201 {
   starts 5 2019/02/22 19:23:45;
@@ -147,9 +155,9 @@ lease 10.128.121.203 {
   uid "\001\230K\341\254\216\257";
 }
 lease 10.128.121.202 {
-  starts 2 2019/03/05 10:35:02;
-  ends 3 2019/03/20 21:41:42;
-  cltt 2 2019/03/05 10:35:02;
+  starts 3 2019/03/20 21:41:39;
+  ends 5 2019/04/05 08:48:19;
+  cltt 3 2019/03/20 21:41:39;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -158,9 +166,9 @@ lease 10.128.121.202 {
   client-hostname "CON-BBB-LT-Fontes5";
 }
 lease 10.128.121.204 {
-  starts 1 2019/03/11 14:40:26;
-  ends 3 2019/03/27 01:47:06;
-  cltt 1 2019/03/11 14:40:26;
+  starts 5 2019/03/22 07:11:16;
+  ends 6 2019/04/06 18:17:56;
+  cltt 5 2019/03/22 07:11:16;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -226,9 +234,9 @@ lease 10.128.118.201 {
   hardware ethernet 20:04:0f:fe:45:56;
 }
 lease 10.128.118.202 {
-  starts 2 2019/03/05 10:35:02;
-  ends 3 2019/03/20 21:41:42;
-  cltt 2 2019/03/05 10:35:02;
+  starts 4 2019/03/21 08:41:29;
+  ends 5 2019/04/05 19:48:09;
+  cltt 4 2019/03/21 08:41:29;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -820,6 +828,17 @@ lease 10.128.104.209 {
   binding state free;
   hardware ethernet de:ad:c0:de:ca:fe;
 }
+lease 10.128.104.210 {
+  starts 1 2019/03/25 18:01:12;
+  ends 3 2019/04/10 05:07:52;
+  cltt 1 2019/03/25 18:16:59;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 98:4b:e1:ac:8e:af;
+  uid "\001\230K\341\254\216\257";
+  set vendor-class-identifier = "MSFT 5.0";
+}
 lease 10.128.103.200 {
   starts 4 2018/12/06 11:08:26;
   ends 4 2018/12/06 13:08:26;
@@ -880,13 +899,33 @@ lease 10.128.103.202 {
   binding state free;
   hardware ethernet 20:04:0f:fe:4c:68;
 }
-lease 10.128.103.207 {
-  starts 3 2019/01/09 16:06:24;
-  ends 3 2019/01/09 18:06:24;
-  tstp 3 2019/01/09 18:06:24;
-  cltt 3 2019/01/09 16:06:24;
+lease 10.128.103.208 {
+  starts 4 2019/03/21 13:10:40;
+  ends 4 2019/03/21 13:18:15;
+  tstp 4 2019/03/21 13:18:15;
+  cltt 4 2019/03/21 13:10:40;
   binding state free;
+  hardware ethernet 50:33:8b:31:d5:24;
+  uid "\001P3\2131\325$";
+}
+lease 10.128.103.209 {
+  starts 4 2019/03/21 13:10:44;
+  ends 4 2019/03/21 13:21:17;
+  tstp 4 2019/03/21 13:21:17;
+  cltt 4 2019/03/21 13:18:42;
+  binding state free;
+  hardware ethernet 38:d2:69:38:b6:84;
+  uid "\0018\322i8\266\204";
+}
+lease 10.128.103.207 {
+  starts 4 2019/03/21 13:13:06;
+  ends 6 2019/04/06 00:19:46;
+  cltt 4 2019/03/21 13:13:06;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
   hardware ethernet 20:04:0f:fe:47:b8;
+  client-hostname "controle4";
 }
 lease 10.128.102.200 {
   starts 3 2018/12/05 15:56:27;
@@ -1101,10 +1140,19 @@ lease 10.128.102.201 {
   binding state free;
   hardware ethernet 20:04:0f:fe:4c:68;
 }
+lease 10.128.102.227 {
+  starts 1 2019/03/25 12:14:24;
+  ends 1 2019/03/25 18:01:11;
+  tstp 1 2019/03/25 18:01:11;
+  cltt 1 2019/03/25 12:14:24;
+  binding state free;
+  hardware ethernet 98:4b:e1:ac:8e:af;
+  uid "\001\230K\341\254\216\257";
+}
 lease 10.128.102.226 {
-  starts 1 2019/03/11 15:16:00;
-  ends 3 2019/03/27 02:22:40;
-  cltt 1 2019/03/11 15:16:00;
+  starts 4 2019/03/21 15:02:01;
+  ends 6 2019/04/06 02:08:41;
+  cltt 4 2019/03/21 15:02:01;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -1235,32 +1283,79 @@ lease 10.128.101.202 {
   binding state free;
   hardware ethernet 20:04:0f:fe:4c:68;
 }
+lease 10.128.101.206 {
+  starts 1 2019/02/25 18:05:49;
+  ends 3 2019/03/13 05:12:29;
+  tstp 3 2019/03/13 05:12:29;
+  cltt 5 2019/03/01 13:43:30;
+  binding state free;
+  hardware ethernet 98:4b:e1:ac:8f:c0;
+  uid "\001\230K\341\254\217\300";
+  set vendor-class-identifier = "MSFT 5.0";
+}
+lease 10.128.101.222 {
+  starts 2 2019/03/19 15:05:34;
+  ends 2 2019/03/19 19:19:20;
+  tstp 2 2019/03/19 19:19:20;
+  cltt 2 2019/03/19 15:05:34;
+  binding state free;
+  hardware ethernet 54:4a:16:ed:09:0e;
+  uid "\001TJ\026\355\011\016";
+}
+lease 10.128.101.223 {
+  starts 2 2019/03/19 20:27:28;
+  ends 1 2019/03/25 12:14:23;
+  tstp 1 2019/03/25 12:14:23;
+  cltt 4 2019/03/21 14:04:13;
+  binding state free;
+  hardware ethernet 98:4b:e1:ac:8e:af;
+  uid "\001\230K\341\254\216\257";
+}
 lease 10.128.101.203 {
-  starts 1 2019/02/25 14:43:01;
-  ends 3 2019/03/13 01:49:41;
-  tstp 3 2019/03/13 01:49:41;
-  cltt 1 2019/02/25 14:43:01;
+  starts 3 2019/03/13 15:09:27;
+  ends 5 2019/03/29 02:16:07;
+  cltt 3 2019/03/13 15:09:27;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet 20:04:0f:fe:47:b8;
   client-hostname "controle4";
 }
-lease 10.128.101.206 {
-  starts 1 2019/02/25 18:05:49;
-  ends 3 2019/03/13 05:12:29;
-  cltt 5 2019/03/01 13:43:30;
+lease 10.128.101.219 {
+  starts 3 2019/03/20 11:08:44;
+  ends 4 2019/04/04 22:15:24;
+  cltt 3 2019/03/20 11:08:44;
   binding state active;
   next binding state free;
   rewind binding state free;
-  hardware ethernet 98:4b:e1:ac:8f:c0;
-  uid "\001\230K\341\254\217\300";
-  set vendor-class-identifier = "MSFT 5.0";
+  hardware ethernet 00:30:53:23:3e:7e;
+}
+lease 10.128.101.220 {
+  starts 4 2019/03/21 14:38:31;
+  ends 6 2019/04/06 01:45:11;
+  cltt 4 2019/03/21 14:38:31;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:fb:99;
+  uid "\001\260\325\314\374\373\231";
+  client-hostname "con-bbb-3";
+}
+lease 10.128.101.221 {
+  starts 4 2019/03/21 14:40:09;
+  ends 6 2019/04/06 01:46:49;
+  cltt 4 2019/03/21 14:40:09;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet a8:1b:6a:36:d8:96;
+  uid "\001\250\033j6\330\226";
+  client-hostname "con-bbb-12";
 }
 lease 10.128.101.213 {
-  starts 2 2019/03/05 10:34:26;
-  ends 3 2019/03/20 21:41:06;
-  cltt 2 2019/03/05 10:34:26;
+  starts 4 2019/03/21 14:50:16;
+  ends 6 2019/04/06 01:56:56;
+  cltt 4 2019/03/21 14:50:16;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -1268,21 +1363,10 @@ lease 10.128.101.213 {
   uid "\001\004\243\026\375\342\326";
   client-hostname "con-bbb-10";
 }
-lease 10.128.101.214 {
-  starts 2 2019/03/05 10:34:26;
-  ends 3 2019/03/20 21:41:06;
-  cltt 2 2019/03/05 10:34:26;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet 04:a3:16:fd:e6:bd;
-  uid "\001\004\243\026\375\346\275";
-  client-hostname "con-bbb-13";
-}
 lease 10.128.101.215 {
-  starts 2 2019/03/05 10:35:02;
-  ends 3 2019/03/20 21:41:42;
-  cltt 2 2019/03/05 10:35:02;
+  starts 4 2019/03/21 15:06:59;
+  ends 6 2019/04/06 02:13:39;
+  cltt 4 2019/03/21 15:06:59;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -1290,14 +1374,16 @@ lease 10.128.101.215 {
   uid "\001\204\353\030\342e2";
   client-hostname "con-bbb-4";
 }
-lease 10.128.101.219 {
-  starts 1 2019/03/11 19:43:24;
-  ends 3 2019/03/27 06:50:04;
-  cltt 1 2019/03/11 19:43:24;
+lease 10.128.101.214 {
+  starts 5 2019/03/22 08:10:23;
+  ends 6 2019/04/06 19:17:03;
+  cltt 5 2019/03/22 08:10:23;
   binding state active;
   next binding state free;
   rewind binding state free;
-  hardware ethernet 00:30:53:23:3e:7e;
+  hardware ethernet 04:a3:16:fd:e6:bd;
+  uid "\001\004\243\026\375\346\275";
+  client-hostname "con-bbb-13";
 }
 lease 10.128.254.217 {
   starts 2 2019/02/05 17:01:07;
@@ -1352,162 +1438,136 @@ lease 10.128.254.213 {
   uid "\001\010\000'qV?";
   set vendor-class-identifier = "MSFT 5.0";
 }
+lease 10.128.254.237 {
+  starts 4 2019/03/14 20:23:36;
+  ends 6 2019/03/30 07:30:16;
+  cltt 4 2019/03/14 20:23:36;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 84:7b:eb:fc:13:85;
+  client-hostname "dig";
+}
+lease 10.128.254.200 {
+  starts 1 2019/03/18 19:43:03;
+  ends 3 2019/04/03 06:49:43;
+  cltt 4 2019/03/21 14:56:26;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 20:04:0f:fe:4c:68;
+}
 lease 10.128.254.235 {
-  starts 3 2019/02/20 16:37:59;
-  ends 5 2019/03/08 03:44:39;
-  tstp 5 2019/03/08 03:44:39;
-  cltt 3 2019/02/20 17:13:34;
-  binding state free;
+  starts 2 2019/03/19 13:46:28;
+  ends 4 2019/04/04 00:53:08;
+  cltt 2 2019/03/19 17:52:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
   hardware ethernet 84:7b:eb:fc:13:85;
 }
+lease 10.128.254.232 {
+  starts 3 2019/03/20 18:38:27;
+  ends 5 2019/04/05 05:45:07;
+  cltt 3 2019/03/20 18:39:30;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 20:04:0f:fe:47:b8;
+}
 lease 10.128.254.211 {
-  starts 3 2019/02/27 17:43:19;
-  ends 5 2019/03/15 04:49:59;
-  cltt 3 2019/02/27 17:43:19;
+  starts 5 2019/03/22 18:21:29;
+  ends 0 2019/04/07 05:28:09;
+  cltt 1 2019/03/25 19:53:28;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet 20:04:0f:fe:45:56;
-  client-hostname "controle2";
-}
-lease 10.128.254.234 {
-  starts 2 2019/03/05 22:39:04;
-  ends 4 2019/03/21 09:45:44;
-  cltt 5 2019/03/08 11:38:16;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet d0:94:66:ae:7d:58;
-}
-lease 10.128.254.236 {
-  starts 3 2019/03/06 20:43:00;
-  ends 5 2019/03/22 07:49:40;
-  cltt 3 2019/03/06 20:43:00;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet 9c:eb:e8:60:73:5d;
-  client-hostname "elp1-linux";
-}
-lease 10.128.254.202 {
-  starts 4 2019/03/07 21:35:10;
-  ends 6 2019/03/23 08:41:50;
-  cltt 5 2019/03/08 18:01:27;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet 0c:c4:7a:dc:0f:68;
 }
 lease 10.128.254.203 {
-  starts 5 2019/03/08 21:23:10;
-  ends 0 2019/03/24 08:29:50;
-  cltt 1 2019/03/11 20:35:18;
+  starts 5 2019/03/22 19:00:20;
+  ends 0 2019/04/07 06:07:00;
+  cltt 5 2019/03/22 19:00:20;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet 0c:c4:7a:dc:04:73;
+  client-hostname "lnls452-linux";
 }
 lease 10.128.254.219 {
-  starts 0 2019/03/10 00:27:55;
-  ends 1 2019/03/25 11:34:35;
-  cltt 0 2019/03/10 00:27:55;
+  starts 6 2019/03/23 18:44:16;
+  ends 1 2019/04/08 05:50:56;
+  cltt 6 2019/03/23 18:44:16;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet 0c:c4:7a:dc:04:2e;
   client-hostname "lnls451-linux";
 }
-lease 10.128.254.233 {
-  starts 0 2019/03/10 19:26:23;
-  ends 2 2019/03/26 06:33:03;
-  cltt 0 2019/03/10 19:26:23;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet d0:94:66:ae:7a:84;
-  client-hostname "lnls561-linux";
-}
-lease 10.128.254.221 {
-  starts 1 2019/03/11 03:41:46;
-  ends 2 2019/03/26 14:48:26;
-  cltt 1 2019/03/11 11:31:28;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet d0:94:66:ae:71:ef;
-}
-lease 10.128.254.207 {
-  starts 1 2019/03/11 05:39:10;
-  ends 2 2019/03/26 16:45:50;
-  cltt 1 2019/03/11 19:21:06;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet ac:16:2d:34:6a:43;
-}
-lease 10.128.254.204 {
-  starts 1 2019/03/11 05:44:48;
-  ends 2 2019/03/26 16:51:28;
-  cltt 1 2019/03/11 05:44:48;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet 0c:c4:7a:dc:0f:6a;
-  client-hostname "lnls449-linux";
-}
 lease 10.128.254.228 {
-  starts 1 2019/03/11 08:21:12;
-  ends 2 2019/03/26 19:27:52;
-  cltt 1 2019/03/11 08:21:12;
+  starts 0 2019/03/24 10:11:50;
+  ends 1 2019/04/08 21:18:30;
+  cltt 0 2019/03/24 10:11:50;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet d0:94:66:ae:7d:bf;
   client-hostname "lnls558-linux";
 }
+lease 10.128.254.221 {
+  starts 0 2019/03/24 10:16:36;
+  ends 1 2019/04/08 21:23:16;
+  cltt 0 2019/03/24 10:16:36;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:94:66:ae:71:ef;
+  client-hostname "lnls559-linux";
+}
+lease 10.128.254.207 {
+  starts 0 2019/03/24 20:05:19;
+  ends 2 2019/04/09 07:11:59;
+  cltt 0 2019/03/24 20:05:19;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet ac:16:2d:34:6a:43;
+  client-hostname "lnls209-linux";
+}
+lease 10.128.254.204 {
+  starts 0 2019/03/24 22:13:12;
+  ends 2 2019/04/09 09:19:52;
+  cltt 0 2019/03/24 22:13:12;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 0c:c4:7a:dc:0f:6a;
+  client-hostname "lnls449-linux";
+}
 lease 10.128.254.231 {
-  starts 1 2019/03/11 08:43:08;
-  ends 2 2019/03/26 19:49:48;
-  cltt 1 2019/03/11 08:43:08;
+  starts 1 2019/03/25 02:58:45;
+  ends 2 2019/04/09 14:05:25;
+  cltt 1 2019/03/25 02:58:45;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet d0:94:66:ae:7d:9b;
   client-hostname "lnls560-linux";
 }
-lease 10.128.254.200 {
-  starts 1 2019/03/11 13:28:30;
-  ends 3 2019/03/27 00:35:10;
-  cltt 1 2019/03/11 13:40:02;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet 20:04:0f:fe:4c:68;
-}
 lease 10.128.254.224 {
-  starts 1 2019/03/11 19:21:13;
-  ends 3 2019/03/27 06:27:53;
-  cltt 1 2019/03/11 19:21:13;
+  starts 1 2019/03/25 03:15:43;
+  ends 2 2019/04/09 14:22:23;
+  cltt 1 2019/03/25 03:15:43;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet d0:94:66:ae:7d:98;
   client-hostname "lnls557-linux";
 }
-lease 10.128.254.232 {
-  starts 1 2019/03/11 19:26:43;
-  ends 3 2019/03/27 06:33:23;
-  cltt 1 2019/03/11 19:26:43;
-  binding state active;
-  next binding state free;
-  rewind binding state free;
-  hardware ethernet 20:04:0f:fe:47:b8;
-  client-hostname "controle4";
-}
 lease 10.128.254.205 {
-  starts 1 2019/03/11 20:49:36;
-  ends 3 2019/03/27 07:56:16;
-  cltt 1 2019/03/11 20:49:36;
+  starts 1 2019/03/25 09:32:30;
+  ends 2 2019/04/09 20:39:10;
+  cltt 1 2019/03/25 09:32:30;
   binding state active;
   next binding state free;
   rewind binding state free;
@@ -1515,12 +1575,42 @@ lease 10.128.254.205 {
   client-hostname "lnls454-linux";
 }
 lease 10.128.254.202 {
-  starts 1 2019/03/11 20:53:03;
-  ends 3 2019/03/27 07:59:43;
-  cltt 1 2019/03/11 20:53:03;
+  starts 1 2019/03/25 18:32:11;
+  ends 3 2019/04/10 05:38:51;
+  cltt 1 2019/03/25 18:32:11;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet 0c:c4:7a:dc:0f:68;
   client-hostname "lnls455-linux";
+}
+lease 10.128.254.234 {
+  starts 1 2019/03/25 19:19:34;
+  ends 3 2019/04/10 06:26:14;
+  cltt 1 2019/03/25 19:19:34;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:94:66:ae:7d:58;
+  client-hostname "lnls556-linux";
+}
+lease 10.128.254.233 {
+  starts 1 2019/03/25 19:59:07;
+  ends 3 2019/04/10 07:05:47;
+  cltt 1 2019/03/25 19:59:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet d0:94:66:ae:7a:84;
+  client-hostname "lnls561-linux";
+}
+lease 10.128.254.236 {
+  starts 2 2019/03/26 13:24:32;
+  ends 4 2019/04/11 00:31:12;
+  cltt 2 2019/03/26 13:24:32;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 9c:eb:e8:60:73:5d;
+  client-hostname "elp1-linux";
 }

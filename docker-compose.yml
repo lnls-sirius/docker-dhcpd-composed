@@ -7,6 +7,9 @@ services:
     command: ["enp2s0"]
     volumes:
       - ./data:/data
+    logging:
+      options:
+        max-size: 50m
     network_mode: "host"
     dns: 10.128.255.6
     dns_search: lnls-sirius.com.br

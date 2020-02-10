@@ -12,16 +12,16 @@ After=network-online.target
 Restart=always
 RestartSec=15
 
-WorkingDirectory=/home/con-srv/repository/docker-dhcpd-composed
+WorkingDirectory=/storage/services/repository/docker-dhcpd-composed
 
 # Remove if up
-ExecStartPre=/usr/local/bin/docker-compose down
+ExecStartPre=/usr/bin/docker-compose down
 
 # Compose up
-ExecStart=/usr/bin/local/docker-compose up
+ExecStart=/usr/bin/docker-compose up
 
 # Compose down, remove containers and volumes
-ExecStop=/usr/bin/local/docker-compose down
+ExecStop=/usr/bin/docker-compose down
 
 StandardOutput=syslog
 StandardError=syslog

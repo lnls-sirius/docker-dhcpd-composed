@@ -4,8 +4,8 @@ services:
     restart: always
     image: lnls/dhcpd
     container_name: dhcpd
-    command: ["ens1f1"]
+    command: ["general-data"]
     volumes:
-      - ./data:/data
+      - /storage/services/repository/docker-dhcpd-composed/data:/data
     network_mode: "host"
     dns: 10.0.0.71

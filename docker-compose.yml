@@ -1,11 +1,17 @@
 version: '3'
 services:
   dhcpd:
-    restart: always
     image: lnls/dhcpd
     container_name: dhcpd
+    restart: always
     command: ["general-data"]
     volumes:
-      - /storage/services/repository/docker-dhcpd-composed/data:/data
+      - /storage/services/repository/docker-stacks/cons-dhcpd/data:/data
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints:
+        - node.hostname != TA-TiRack-CO-FWSrv-1
     network_mode: "host"
     dns: 10.0.0.71

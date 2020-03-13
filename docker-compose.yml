@@ -2,8 +2,6 @@ version: '3'
 services:
   dhcpd:
     image: lnls/dhcpd
-    container_name: dhcpd
-    restart: always
     command: ["general-data"]
     volumes:
       - /storage/services/repository/docker-stacks/cons-dhcpd/data:/data
@@ -13,5 +11,19 @@ services:
       placement:
         constraints:
         - node.hostname != TA-TiRack-CO-FWSrv-1
-    network_mode: "host"
-    dns: 10.0.0.71
+      restart_policy:
+        condition: on-failure
+    networks:
+      host: {}
+    dns: 
+      - 10.0.0.71
+      - 10.0.0.72
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "10"
+        max-size: "10m"
+
+networks:
+  host:
+    external: true

@@ -28593,3 +28593,653 @@ lease 10.128.170.107 {
   option agent.remote-id a:80:aa:b;
   client-hostname "BOO-INJ-SEP";
 }
+lease 10.128.170.110 {
+  starts 5 2020/03/13 17:44:58;
+  ends 5 2020/03/13 17:45:28;
+  cltt 5 2020/03/13 17:44:58;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:fe:be;
+  uid "\001\260\325\314\374\376\276";
+  option agent.circuit-id 0:0:0:a;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "SR-INJ-THICK-SEP-2";
+}
+lease 10.128.170.108 {
+  starts 5 2020/03/13 17:44:58;
+  ends 5 2020/03/13 17:45:28;
+  cltt 5 2020/03/13 17:44:58;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:b0:c2:e0;
+  uid "\001\004\243\026\260\302\340";
+  option agent.circuit-id 0:0:0:8;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "BOO-INJ-KICKER";
+}
+lease 10.128.170.109 {
+  starts 5 2020/03/13 17:44:59;
+  ends 5 2020/03/13 17:45:29;
+  cltt 5 2020/03/13 17:44:59;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:e2:54:28;
+  uid "\001\004\243\026\342T(";
+  option agent.circuit-id 0:0:0:9;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "SR-INJ-THICK-SEP-1";
+}
+lease 10.128.170.113 {
+  starts 5 2020/03/13 17:45:00;
+  ends 5 2020/03/13 17:45:30;
+  cltt 5 2020/03/13 17:45:00;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fa:65:e0;
+  uid "\001\004\243\026\372e\340";
+  option agent.circuit-id 0:0:0:13;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "NLK-ON-AXIS-1";
+}
+lease 10.128.180.109 {
+  starts 5 2020/03/13 17:45:00;
+  ends 5 2020/03/13 17:45:30;
+  cltt 5 2020/03/13 17:45:00;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:e2:82:7b;
+  uid "\001\004\243\026\342\202{";
+  option agent.circuit-id 0:0:0:f;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-THICK-SEP";
+}
+lease 10.128.170.111 {
+  starts 5 2020/03/13 17:45:06;
+  ends 5 2020/03/13 17:45:36;
+  cltt 5 2020/03/13 17:45:06;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:e7:5a;
+  uid "\001\260\325\314\374\347Z";
+  option agent.circuit-id 0:0:0:11;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "S-R-INJ-THIN-SEP";
+}
+lease 10.128.170.116 {
+  starts 5 2020/03/13 17:45:07;
+  ends 5 2020/03/13 17:45:37;
+  cltt 5 2020/03/13 17:45:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:b7:5a:6d;
+  uid "\001\004\243\026\267Zm";
+  option agent.circuit-id 0:0:0:14;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "NLK-ON-AXIS-2";
+}
+lease 10.128.180.107 {
+  starts 5 2020/03/13 17:45:07;
+  ends 5 2020/03/13 17:45:37;
+  cltt 5 2020/03/13 17:45:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:c6:20;
+  uid "\001\004\243\026\255\306 ";
+  option agent.circuit-id 0:0:0:d;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-KICKER";
+}
+lease 10.128.180.108 {
+  starts 5 2020/03/13 17:45:07;
+  ends 5 2020/03/13 17:45:37;
+  cltt 5 2020/03/13 17:45:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:c9:80;
+  uid "\001\004\243\026\255\311\200";
+  option agent.circuit-id 0:0:0:e;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-THIN-SEP";
+}
+lease 10.128.170.107 {
+  starts 5 2020/03/13 17:45:07;
+  ends 5 2020/03/13 17:45:37;
+  cltt 5 2020/03/13 17:45:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fa:46:f1;
+  uid "\001\004\243\026\372F\361";
+  option agent.circuit-id 0:0:0:7;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "BOO-INJ-SEP";
+}
+lease 10.128.170.110 {
+  starts 5 2020/03/13 17:45:13;
+  ends 5 2020/03/13 17:45:43;
+  cltt 5 2020/03/13 17:45:13;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:fe:be;
+  uid "\001\260\325\314\374\376\276";
+  option agent.circuit-id 0:0:0:a;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "SR-INJ-THICK-SEP-2";
+}
+lease 10.128.170.108 {
+  starts 5 2020/03/13 17:45:13;
+  ends 5 2020/03/13 17:45:43;
+  cltt 5 2020/03/13 17:45:13;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:b0:c2:e0;
+  uid "\001\004\243\026\260\302\340";
+  option agent.circuit-id 0:0:0:8;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "BOO-INJ-KICKER";
+}
+lease 10.128.170.109 {
+  starts 5 2020/03/13 17:45:14;
+  ends 5 2020/03/13 17:45:44;
+  cltt 5 2020/03/13 17:45:14;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:e2:54:28;
+  uid "\001\004\243\026\342T(";
+  option agent.circuit-id 0:0:0:9;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "SR-INJ-THICK-SEP-1";
+}
+lease 10.128.170.113 {
+  starts 5 2020/03/13 17:45:15;
+  ends 5 2020/03/13 17:45:45;
+  cltt 5 2020/03/13 17:45:15;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fa:65:e0;
+  uid "\001\004\243\026\372e\340";
+  option agent.circuit-id 0:0:0:13;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "NLK-ON-AXIS-1";
+}
+lease 10.128.180.109 {
+  starts 5 2020/03/13 17:45:15;
+  ends 5 2020/03/13 17:45:45;
+  cltt 5 2020/03/13 17:45:15;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:e2:82:7b;
+  uid "\001\004\243\026\342\202{";
+  option agent.circuit-id 0:0:0:f;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-THICK-SEP";
+}
+lease 10.128.170.111 {
+  starts 5 2020/03/13 17:45:22;
+  ends 5 2020/03/13 17:45:52;
+  cltt 5 2020/03/13 17:45:22;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:e7:5a;
+  uid "\001\260\325\314\374\347Z";
+  option agent.circuit-id 0:0:0:11;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "S-R-INJ-THIN-SEP";
+}
+lease 10.128.170.116 {
+  starts 5 2020/03/13 17:45:22;
+  ends 5 2020/03/13 17:45:52;
+  cltt 5 2020/03/13 17:45:22;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:b7:5a:6d;
+  uid "\001\004\243\026\267Zm";
+  option agent.circuit-id 0:0:0:14;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "NLK-ON-AXIS-2";
+}
+lease 10.128.180.107 {
+  starts 5 2020/03/13 17:45:22;
+  ends 5 2020/03/13 17:45:52;
+  cltt 5 2020/03/13 17:45:22;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:c6:20;
+  uid "\001\004\243\026\255\306 ";
+  option agent.circuit-id 0:0:0:d;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-KICKER";
+}
+lease 10.128.180.108 {
+  starts 5 2020/03/13 17:45:22;
+  ends 5 2020/03/13 17:45:52;
+  cltt 5 2020/03/13 17:45:22;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:c9:80;
+  uid "\001\004\243\026\255\311\200";
+  option agent.circuit-id 0:0:0:e;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-THIN-SEP";
+}
+lease 10.128.170.107 {
+  starts 5 2020/03/13 17:45:22;
+  ends 5 2020/03/13 17:45:52;
+  cltt 5 2020/03/13 17:45:22;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fa:46:f1;
+  uid "\001\004\243\026\372F\361";
+  option agent.circuit-id 0:0:0:7;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "BOO-INJ-SEP";
+}
+lease 10.128.170.110 {
+  starts 5 2020/03/13 17:45:28;
+  ends 5 2020/03/13 17:45:58;
+  cltt 5 2020/03/13 17:45:28;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:fe:be;
+  uid "\001\260\325\314\374\376\276";
+  option agent.circuit-id 0:0:0:a;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "SR-INJ-THICK-SEP-2";
+}
+lease 10.128.170.108 {
+  starts 5 2020/03/13 17:45:28;
+  ends 5 2020/03/13 17:45:58;
+  cltt 5 2020/03/13 17:45:28;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:b0:c2:e0;
+  uid "\001\004\243\026\260\302\340";
+  option agent.circuit-id 0:0:0:8;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "BOO-INJ-KICKER";
+}
+lease 10.128.170.109 {
+  starts 5 2020/03/13 17:45:29;
+  ends 5 2020/03/13 17:45:59;
+  cltt 5 2020/03/13 17:45:29;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:e2:54:28;
+  uid "\001\004\243\026\342T(";
+  option agent.circuit-id 0:0:0:9;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "SR-INJ-THICK-SEP-1";
+}
+lease 10.128.170.113 {
+  starts 5 2020/03/13 17:45:30;
+  ends 5 2020/03/13 17:46:00;
+  cltt 5 2020/03/13 17:45:30;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fa:65:e0;
+  uid "\001\004\243\026\372e\340";
+  option agent.circuit-id 0:0:0:13;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "NLK-ON-AXIS-1";
+}
+lease 10.128.180.109 {
+  starts 5 2020/03/13 17:45:30;
+  ends 5 2020/03/13 17:46:00;
+  cltt 5 2020/03/13 17:45:30;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:e2:82:7b;
+  uid "\001\004\243\026\342\202{";
+  option agent.circuit-id 0:0:0:f;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-THICK-SEP";
+}
+lease 10.128.170.111 {
+  starts 5 2020/03/13 17:45:37;
+  ends 5 2020/03/13 17:46:07;
+  cltt 5 2020/03/13 17:45:37;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:e7:5a;
+  uid "\001\260\325\314\374\347Z";
+  option agent.circuit-id 0:0:0:11;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "S-R-INJ-THIN-SEP";
+}
+lease 10.128.170.116 {
+  starts 5 2020/03/13 17:45:37;
+  ends 5 2020/03/13 17:46:07;
+  cltt 5 2020/03/13 17:45:37;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:b7:5a:6d;
+  uid "\001\004\243\026\267Zm";
+  option agent.circuit-id 0:0:0:14;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "NLK-ON-AXIS-2";
+}
+lease 10.128.180.107 {
+  starts 5 2020/03/13 17:45:37;
+  ends 5 2020/03/13 17:46:07;
+  cltt 5 2020/03/13 17:45:37;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:c6:20;
+  uid "\001\004\243\026\255\306 ";
+  option agent.circuit-id 0:0:0:d;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-KICKER";
+}
+lease 10.128.180.108 {
+  starts 5 2020/03/13 17:45:37;
+  ends 5 2020/03/13 17:46:07;
+  cltt 5 2020/03/13 17:45:37;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:c9:80;
+  uid "\001\004\243\026\255\311\200";
+  option agent.circuit-id 0:0:0:e;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-THIN-SEP";
+}
+lease 10.128.170.107 {
+  starts 5 2020/03/13 17:45:37;
+  ends 5 2020/03/13 17:46:07;
+  cltt 5 2020/03/13 17:45:37;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fa:46:f1;
+  uid "\001\004\243\026\372F\361";
+  option agent.circuit-id 0:0:0:7;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "BOO-INJ-SEP";
+}
+lease 10.128.170.110 {
+  starts 5 2020/03/13 17:45:43;
+  ends 5 2020/03/13 17:46:13;
+  cltt 5 2020/03/13 17:45:43;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:fe:be;
+  uid "\001\260\325\314\374\376\276";
+  option agent.circuit-id 0:0:0:a;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "SR-INJ-THICK-SEP-2";
+}
+lease 10.128.170.108 {
+  starts 5 2020/03/13 17:45:43;
+  ends 5 2020/03/13 17:46:13;
+  cltt 5 2020/03/13 17:45:43;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:b0:c2:e0;
+  uid "\001\004\243\026\260\302\340";
+  option agent.circuit-id 0:0:0:8;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "BOO-INJ-KICKER";
+}
+lease 10.128.170.109 {
+  starts 5 2020/03/13 17:45:44;
+  ends 5 2020/03/13 17:46:14;
+  cltt 5 2020/03/13 17:45:44;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:e2:54:28;
+  uid "\001\004\243\026\342T(";
+  option agent.circuit-id 0:0:0:9;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "SR-INJ-THICK-SEP-1";
+}
+lease 10.128.170.113 {
+  starts 5 2020/03/13 17:45:45;
+  ends 5 2020/03/13 17:46:15;
+  cltt 5 2020/03/13 17:45:45;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fa:65:e0;
+  uid "\001\004\243\026\372e\340";
+  option agent.circuit-id 0:0:0:13;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "NLK-ON-AXIS-1";
+}
+lease 10.128.180.109 {
+  starts 5 2020/03/13 17:45:45;
+  ends 5 2020/03/13 17:46:15;
+  cltt 5 2020/03/13 17:45:45;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:e2:82:7b;
+  uid "\001\004\243\026\342\202{";
+  option agent.circuit-id 0:0:0:f;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-THICK-SEP";
+}
+lease 10.128.170.111 {
+  starts 5 2020/03/13 17:45:52;
+  ends 5 2020/03/13 17:46:22;
+  cltt 5 2020/03/13 17:45:52;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:e7:5a;
+  uid "\001\260\325\314\374\347Z";
+  option agent.circuit-id 0:0:0:11;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "S-R-INJ-THIN-SEP";
+}
+lease 10.128.170.116 {
+  starts 5 2020/03/13 17:45:52;
+  ends 5 2020/03/13 17:46:22;
+  cltt 5 2020/03/13 17:45:52;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:b7:5a:6d;
+  uid "\001\004\243\026\267Zm";
+  option agent.circuit-id 0:0:0:14;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "NLK-ON-AXIS-2";
+}
+lease 10.128.180.107 {
+  starts 5 2020/03/13 17:45:52;
+  ends 5 2020/03/13 17:46:22;
+  cltt 5 2020/03/13 17:45:52;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:c6:20;
+  uid "\001\004\243\026\255\306 ";
+  option agent.circuit-id 0:0:0:d;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-KICKER";
+}
+lease 10.128.180.108 {
+  starts 5 2020/03/13 17:45:52;
+  ends 5 2020/03/13 17:46:22;
+  cltt 5 2020/03/13 17:45:52;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:c9:80;
+  uid "\001\004\243\026\255\311\200";
+  option agent.circuit-id 0:0:0:e;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-THIN-SEP";
+}
+lease 10.128.170.107 {
+  starts 5 2020/03/13 17:45:52;
+  ends 5 2020/03/13 17:46:22;
+  cltt 5 2020/03/13 17:45:52;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fa:46:f1;
+  uid "\001\004\243\026\372F\361";
+  option agent.circuit-id 0:0:0:7;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "BOO-INJ-SEP";
+}
+lease 10.128.170.110 {
+  starts 5 2020/03/13 17:45:58;
+  ends 5 2020/03/13 17:46:28;
+  cltt 5 2020/03/13 17:45:58;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:fe:be;
+  uid "\001\260\325\314\374\376\276";
+  option agent.circuit-id 0:0:0:a;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "SR-INJ-THICK-SEP-2";
+}
+lease 10.128.170.108 {
+  starts 5 2020/03/13 17:45:58;
+  ends 5 2020/03/13 17:46:28;
+  cltt 5 2020/03/13 17:45:58;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:b0:c2:e0;
+  uid "\001\004\243\026\260\302\340";
+  option agent.circuit-id 0:0:0:8;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "BOO-INJ-KICKER";
+}
+lease 10.128.170.109 {
+  starts 5 2020/03/13 17:45:59;
+  ends 5 2020/03/13 17:46:29;
+  cltt 5 2020/03/13 17:45:59;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:e2:54:28;
+  uid "\001\004\243\026\342T(";
+  option agent.circuit-id 0:0:0:9;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "SR-INJ-THICK-SEP-1";
+}
+lease 10.128.170.113 {
+  starts 5 2020/03/13 17:46:00;
+  ends 5 2020/03/13 17:46:30;
+  cltt 5 2020/03/13 17:46:00;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fa:65:e0;
+  uid "\001\004\243\026\372e\340";
+  option agent.circuit-id 0:0:0:13;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "NLK-ON-AXIS-1";
+}
+lease 10.128.180.109 {
+  starts 5 2020/03/13 17:46:00;
+  ends 5 2020/03/13 17:46:30;
+  cltt 5 2020/03/13 17:46:00;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:e2:82:7b;
+  uid "\001\004\243\026\342\202{";
+  option agent.circuit-id 0:0:0:f;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-THICK-SEP";
+}
+lease 10.128.170.111 {
+  starts 5 2020/03/13 17:46:07;
+  ends 5 2020/03/13 17:46:37;
+  cltt 5 2020/03/13 17:46:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet b0:d5:cc:fc:e7:5a;
+  uid "\001\260\325\314\374\347Z";
+  option agent.circuit-id 0:0:0:11;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "S-R-INJ-THIN-SEP";
+}
+lease 10.128.170.116 {
+  starts 5 2020/03/13 17:46:07;
+  ends 5 2020/03/13 17:46:37;
+  cltt 5 2020/03/13 17:46:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:b7:5a:6d;
+  uid "\001\004\243\026\267Zm";
+  option agent.circuit-id 0:0:0:14;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "NLK-ON-AXIS-2";
+}
+lease 10.128.180.107 {
+  starts 5 2020/03/13 17:46:07;
+  ends 5 2020/03/13 17:46:37;
+  cltt 5 2020/03/13 17:46:07;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:c6:20;
+  uid "\001\004\243\026\255\306 ";
+  option agent.circuit-id 0:0:0:d;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-KICKER";
+}
+lease 10.128.180.108 {
+  starts 5 2020/03/13 17:46:08;
+  ends 5 2020/03/13 17:46:38;
+  cltt 5 2020/03/13 17:46:08;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:ad:c9:80;
+  uid "\001\004\243\026\255\311\200";
+  option agent.circuit-id 0:0:0:e;
+  option agent.remote-id a:80:b4:b;
+  client-hostname "BOO-EXT-THIN-SEP";
+}
+lease 10.128.170.107 {
+  starts 5 2020/03/13 17:46:08;
+  ends 5 2020/03/13 17:46:38;
+  cltt 5 2020/03/13 17:46:08;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 04:a3:16:fa:46:f1;
+  uid "\001\004\243\026\372F\361";
+  option agent.circuit-id 0:0:0:7;
+  option agent.remote-id a:80:aa:b;
+  client-hostname "BOO-INJ-SEP";
+}

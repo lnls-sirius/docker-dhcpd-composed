@@ -4,12 +4,12 @@ services:
     restart: always
     image: lnls/dhcpd
     container_name: dhcpd
-    command: ["enp2s0"]
+    command: ["eno1"]
     volumes:
       - ./data:/data
     logging:
       options:
         max-size: 50m
     network_mode: "host"
-    dns: 10.128.255.6
+    dns: 10.128.255.7
     dns_search: lnls-sirius.com.br

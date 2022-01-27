@@ -1,21 +1,30 @@
 version: '3'
 services:
   dhcpd:
-    image: lnls/dhcpd
+    image: dockerregistry.lnls-sirius.com.br/gco/dhcpd
     command: ["general-data"]
     volumes:
-      - /storage/services/repository/docker-stacks/cons-dhcpd/data:/data
+      - /storage/services/repository/docker-stacks/dhcpd/data:/data
     deploy:
       mode: replicated
       replicas: 1
       placement:
         constraints:
+        - node.hostname != lnlsfac-srv2
         - node.hostname != TA-TiRack-CO-FWSrv-1
+        - node.hostname != CA-RaTim-CO-IOCSrv
+        - node.hostname != IA-14RaDiag03-CO-IOCSrv
+        - node.hostname != IA-16RaBbB-CO-IOCSrv
+        - node.hostname != IA-18RaDiag04-CO-IOCSrv
+        - node.hostname != IA-20RaDiag01-CO-IOCSrv-1
+        - node.hostname != IA-20RaDiag01-CO-IOCSrv-2
+        - node.hostname != IA-20RaDiag02-CO-IOCSrv-1
+        - node.hostname != IA-20RaDiag02-CO-IOCSrv-2
       restart_policy:
         condition: on-failure
     networks:
       host: {}
-    dns: 
+    dns:
       - 10.0.0.71
       - 10.0.0.72
     logging:

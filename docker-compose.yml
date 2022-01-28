@@ -1,7 +1,7 @@
 version: '3'
 services:
   dhcpd:
-    image: dockerregistry.lnls-sirius.com.br/gco/dhcpd
+    image: dockerregistry.lnls-sirius.com.br/dhcpd:isc-dhcpd-4.3.3
     command: ["general-data"]
     volumes:
       - /storage/services/repository/docker-stacks/dhcpd/data:/data
@@ -10,8 +10,7 @@ services:
       replicas: 1
       placement:
         constraints:
-        - node.hostname != lnlsfac-srv2
-        - node.hostname != TA-TiRack-CO-FWSrv-1
+      # - node.hostname != CA-RaCtrl-CO-Srv-1
         - node.hostname != CA-RaTim-CO-IOCSrv
         - node.hostname != IA-14RaDiag03-CO-IOCSrv
         - node.hostname != IA-16RaBbB-CO-IOCSrv
@@ -20,11 +19,19 @@ services:
         - node.hostname != IA-20RaDiag01-CO-IOCSrv-2
         - node.hostname != IA-20RaDiag02-CO-IOCSrv-1
         - node.hostname != IA-20RaDiag02-CO-IOCSrv-2
+      # - node.hostname != LA-RaCtrl-CO-Srv-1
+        - node.hostname != TA-TiRack-CO-FWSrv-1
+        - node.hostname != lnlsfac-srv2
       restart_policy:
         condition: on-failure
     networks:
       host: {}
+
+    dns_search:
+      - lnls-sirius.com.br
+      - abtlus.org.br
     dns:
+      - 10.128.255.7
       - 10.0.0.71
       - 10.0.0.72
     logging:

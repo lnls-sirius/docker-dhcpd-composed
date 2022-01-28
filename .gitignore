@@ -8,4 +8,5 @@
 *.a
 *.so
 
+data/ddns.key
 data/dhcpd.leases

@@ -1,15 +1,45 @@
 version: '3'
 services:
   dhcpd:
-    restart: always
-    image: lnls/dhcpd
-    container_name: dhcpd
-    command: ["eno1"]
+    image: dockerregistry.lnls-sirius.com.br/dhcpd:isc-dhcpd-4.3.3
+    command: ["general-data"]
     volumes:
-      - ./data:/data
+      - /storage/services/repository/docker-stacks/dhcpd/data:/data
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints:
+      # - node.hostname != CA-RaCtrl-CO-Srv-1
+        - node.hostname != CA-RaTim-CO-IOCSrv
+        - node.hostname != IA-14RaDiag03-CO-IOCSrv
+        - node.hostname != IA-16RaBbB-CO-IOCSrv
+        - node.hostname != IA-18RaDiag04-CO-IOCSrv
+        - node.hostname != IA-20RaDiag01-CO-IOCSrv-1
+        - node.hostname != IA-20RaDiag01-CO-IOCSrv-2
+        - node.hostname != IA-20RaDiag02-CO-IOCSrv-1
+        - node.hostname != IA-20RaDiag02-CO-IOCSrv-2
+      # - node.hostname != LA-RaCtrl-CO-Srv-1
+        - node.hostname != TA-TiRack-CO-FWSrv-1
+        - node.hostname != lnlsfac-srv2
+      restart_policy:
+        condition: on-failure
+    networks:
+      host: {}
+
+    dns_search:
+      - lnls-sirius.com.br
+      - abtlus.org.br
+    dns:
+      - 10.128.255.7
+      - 10.0.0.71
+      - 10.0.0.72
     logging:
+      driver: "json-file"
       options:
-        max-size: 50m
-    network_mode: "host"
-    dns: 10.128.255.7
-    dns_search: lnls-sirius.com.br
+        max-file: "10"
+        max-size: "10m"
+
+networks:
+  host:
+    external: true
